@@ -1,0 +1,43 @@
+# Reproduction Artifacts
+
+End-to-end run artifacts from reproducing two benchmark tasks with the full
+PCBSchemaGen pipeline (LLM generation → ERC → topology verification → KiCad
+artifact generation). Both runs used the OpenAI-compatible Anthropic endpoint
+(`--base_url https://api.anthropic.com/v1/`) with model `claude-sonnet-4-6`.
+
+| Task | Description | Level | Result | Attempts | Components |
+|------|-------------|-------|--------|----------|-----------|
+| [Task 1](task_01_voltage_divider) | Resistor divider (60 V → 3.3 V sense) | Easy | PASS | 1 | 3 |
+| [Task 17](task_17_sync_buck) | Synchronous buck converter | Hard | PASS | 2 | 80 |
+
+Task 17 is the paper's flagship example (compare with [`../example_output/`](../example_output)).
+It passed on the second attempt: the first attempt was rejected by the topology
+verifier (insufficient output capacitors) and the feedback loop drove the fix.
+
+## How these were generated
+
+```bash
+cd task
+OPENAI_API_KEY="YOUR_KEY" XDG_DATA_HOME=$(pwd)/.. python3 run.py \
+  --task_id 1 \
+  --model claude-sonnet-4-6 \
+  --base_url https://api.anthropic.com/v1/ \
+  --num_of_retry 3
+# results land in task/p1_results/ (and task/p17_results/ for --task_id 17)
+```
+
+## Files (per task)
+
+| File | Description |
+|------|-------------|
+| `extracted_task_*.png` | Schematic render (PNG, rendered from the SVG) |
+| `extracted_task_*.svg` | Schematic render (vector) |
+| `extracted_task_*.kicad_pcb` | KiCad PCB model |
+| `extracted_task_*.kicad_pro` / `.kicad_prl` | KiCad project files |
+| `extracted_task_*.net` | KiCad netlist |
+| `extracted_task_*.erc` | Electrical rule check report |
+| `extracted_task_*.py` | Final SKiDL source (with artifact-generation wrapper) |
+| `attempt_*_skidl.py` | Per-attempt LLM-generated SKiDL code |
+| `attempt_*.svg` | Per-attempt intermediate schematic render |
+| `task_*_output.txt` | Full LLM response (chain-of-thought + code) |
+| `task_*_stats.json` | Run statistics (tokens, timing, status) |

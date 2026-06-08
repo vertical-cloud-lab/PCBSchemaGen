@@ -7,6 +7,7 @@ LLM-based PCB schematic generation with automated topology verification.
 PCBSchemaGen requires:
 - Python >= 3.10
 - KiCad 9 (with pcbnew Python bindings)
+- Node.js + `netlistsvg` (for schematic SVG generation)
 - OpenAI-compatible API access
 
 ## Step 1: Install KiCad 9
@@ -27,14 +28,25 @@ python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"
 pip install openai pandas skidl networkx cairosvg Pillow
 ```
 
-## Step 3: Environment Check
+## Step 3: Install netlistsvg
+
+SKiDL's `generate_svg()` shells out to the `netlistsvg` CLI. Without it, SVG
+generation (and therefore the sample verification suite) fails. Install it with
+npm (requires Node.js):
+
+```bash
+npm install -g netlistsvg
+netlistsvg --help   # verify it is on your PATH
+```
+
+## Step 4: Environment Check
 
 ```bash
 cd "sample design"
 XDG_DATA_HOME=$(pwd)/../.xdg python3 run_samples_test.py
 ```
 
-All 17 tasks should print `[PASS]`. If not, check your KiCad installation.
+All 17 tasks should print `[PASS]`. If not, check your KiCad and `netlistsvg` installation.
 
 # Quick Start
 
@@ -55,6 +67,21 @@ Any OpenAI-compatible API works. We recommend [OpenRouter](https://openrouter.ai
 1. Create account at https://openrouter.ai
 2. Get API key from dashboard
 3. Use with `--base_url https://openrouter.ai/api/v1`
+
+You can also point directly at a provider's OpenAI-compatible endpoint. For
+example, Anthropic's endpoint works with this benchmark:
+
+```bash
+cd task
+OPENAI_API_KEY="YOUR_ANTHROPIC_KEY" XDG_DATA_HOME=$(pwd)/.. python3 run.py \
+  --task_id 1 \
+  --model claude-sonnet-4-6 \
+  --base_url https://api.anthropic.com/v1/
+```
+
+Note: some newer Anthropic models (e.g. `claude-opus-4-8`) reject the
+`temperature` parameter; use a model that accepts it (e.g. `claude-sonnet-4-6`)
+or pass `--temperature` only with models that support it.
 
 # Benchmark
 

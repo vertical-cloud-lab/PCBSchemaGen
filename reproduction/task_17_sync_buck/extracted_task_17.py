@@ -1,0 +1,378 @@
+
+import sys
+import os
+import logging
+kicad_sym_dir = "/usr/share/kicad/symbols"
+if os.path.exists(kicad_sym_dir):
+    os.environ["KICAD_SYMBOL_DIR"] = kicad_sym_dir
+    os.environ["KICAD9_SYMBOL_DIR"] = kicad_sym_dir
+    os.environ["KICAD8_SYMBOL_DIR"] = kicad_sym_dir
+    os.environ["KICAD7_SYMBOL_DIR"] = kicad_sym_dir
+    os.environ["KICAD6_SYMBOL_DIR"] = kicad_sym_dir
+
+kicad_fp_dir = "/usr/share/kicad/footprints"
+if os.path.exists(kicad_fp_dir):
+    os.environ["KICAD_FOOTPRINT_DIR"] = kicad_fp_dir
+    os.environ["KICAD9_FOOTPRINT_DIR"] = kicad_fp_dir
+    os.environ["KICAD8_FOOTPRINT_DIR"] = kicad_fp_dir
+    os.environ["KICAD7_FOOTPRINT_DIR"] = kicad_fp_dir
+    os.environ["KICAD6_FOOTPRINT_DIR"] = kicad_fp_dir
+
+from skidl import *
+from skidl import lib_search_paths, footprint_search_paths, KICAD
+
+TASK_ID = 17
+lib_path = r"/tmp/workspace/vertical-cloud-lab/PCBSchemaGen/library"
+if os.path.exists(lib_path):
+    if KICAD in lib_search_paths:
+        if lib_path not in lib_search_paths[KICAD]:
+            lib_search_paths[KICAD].append(lib_path)
+    else:
+         lib_search_paths[KICAD] = [lib_path]
+    fp_paths = footprint_search_paths.get(KICAD, [])
+    if isinstance(fp_paths, list):
+        if lib_path not in fp_paths:
+            fp_paths.append(lib_path)
+            footprint_search_paths[KICAD] = fp_paths
+    else:
+        if fp_paths:
+            if lib_path != fp_paths:
+                footprint_search_paths[KICAD] = [fp_paths, lib_path]
+        else:
+            footprint_search_paths[KICAD] = [lib_path]
+
+from skidl import *
+
+# ─────────────────────────────────────────────
+# Top-level nets
+# ─────────────────────────────────────────────
+vin      = Net("VIN")       # Main DC bus positive
+vout     = Net("VOUT")      # Buck converter output
+pgnd     = Net("PGND")      # Power ground
+vsw      = Net("VSW")       # Switch node
+
+pwm_h    = Net("PWM_H")     # High-side PWM input
+pwm_l    = Net("PWM_L")     # Low-side PWM input
+
+# Primary-side logic/control power (12V assumed, provided externally)
+vcc_pri  = Net("VCC_PRI")   # 12V primary supply for isolated DC-DCs
+gnd_pri  = Net("GND_PRI")   # Primary ground
+
+# ─────────────────────────────────────────────
+# High-side isolated power supply (MGJ2D121505SC_H)
+# ─────────────────────────────────────────────
+iso_psu_h = Part("test", "MGJ2D121505SC", footprint="test:MGJ2D121505SC")
+iso_psu_h.ref = "U_ISO_H"
+
+vdd_h     = Net("VDD_H")      # +15V high-side gate driver supply
+gnd_sec_h = Net("GND_SEC_H")  # Isolated 0V for high-side
+vee_h     = Net("VEE_H")      # -9V high-side gate driver supply
+
+iso_psu_h[1] += vcc_pri     # Primary +VIN
+iso_psu_h[2] += gnd_pri     # Primary -VIN
+iso_psu_h[7] += vdd_h       # Secondary +VOUT (+15V)
+iso_psu_h[6] += gnd_sec_h   # Secondary 0V
+iso_psu_h[5] += vee_h       # Secondary -VOUT (-9V)
+
+# Decoupling on high-side isolated PSU output
+c_vdd_h = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_vdd_h.ref = "C_VDD_H"
+c_vdd_h[1] += vdd_h
+c_vdd_h[2] += gnd_sec_h
+
+c_vee_h = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_vee_h.ref = "C_VEE_H"
+c_vee_h[1] += gnd_sec_h
+c_vee_h[2] += vee_h
+
+c_bulk_h = Part("test", "C", value="10uF", footprint="test:C_0805")
+c_bulk_h.ref = "C_BULK_H"
+c_bulk_h[1] += vdd_h
+c_bulk_h[2] += vee_h
+
+# ─────────────────────────────────────────────
+# Low-side isolated power supply (MGJ2D121505SC_L)
+# ─────────────────────────────────────────────
+iso_psu_l = Part("test", "MGJ2D121505SC", footprint="test:MGJ2D121505SC")
+iso_psu_l.ref = "U_ISO_L"
+
+vdd_l     = Net("VDD_L")      # +15V low-side gate driver supply
+gnd_sec_l = Net("GND_SEC_L")  # Isolated 0V for low-side
+vee_l     = Net("VEE_L")      # -9V low-side gate driver supply
+
+iso_psu_l[1] += vcc_pri     # Primary +VIN
+iso_psu_l[2] += gnd_pri     # Primary -VIN
+iso_psu_l[7] += vdd_l       # Secondary +VOUT (+15V)
+iso_psu_l[6] += gnd_sec_l   # Secondary 0V
+iso_psu_l[5] += vee_l       # Secondary -VOUT (-9V)
+
+# Decoupling on low-side isolated PSU output
+c_vdd_l = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_vdd_l.ref = "C_VDD_L"
+c_vdd_l[1] += vdd_l
+c_vdd_l[2] += gnd_sec_l
+
+c_vee_l = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_vee_l.ref = "C_VEE_L"
+c_vee_l[1] += gnd_sec_l
+c_vee_l[2] += vee_l
+
+c_bulk_l = Part("test", "C", value="10uF", footprint="test:C_0805")
+c_bulk_l.ref = "C_BULK_L"
+c_bulk_l[1] += vdd_l
+c_bulk_l[2] += vee_l
+
+# ─────────────────────────────────────────────
+# High-side gate driver (UCC5390E_H)
+# ─────────────────────────────────────────────
+drv_h = Part("test", "UCC5390E", footprint="test:UCC5390E")
+drv_h.ref = "U_DRV_H"
+
+# Primary side connections
+drv_h[1] += vcc_pri          # VCC1 - primary supply
+drv_h[4] += gnd_pri          # GND1 - primary ground
+drv_h[2] += pwm_h            # IN+  - PWM high-side input
+drv_h[3] += gnd_pri          # IN-  - tied to primary GND (active high input)
+
+# Secondary side connections
+drv_h[5] += vdd_h            # VCC2 - +15V
+drv_h[7] += gnd_sec_h        # GND2 - isolated 0V
+drv_h[8] += vee_h            # VEE2 - -9V
+
+# Decoupling on driver primary
+c_drv_h_pri = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_drv_h_pri.ref = "C_DRV_H_PRI"
+c_drv_h_pri[1] += vcc_pri
+c_drv_h_pri[2] += gnd_pri
+
+# Decoupling on driver secondary
+c_drv_h_sec = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_drv_h_sec.ref = "C_DRV_H_SEC"
+c_drv_h_sec[1] += vdd_h
+c_drv_h_sec[2] += gnd_sec_h
+
+# ─────────────────────────────────────────────
+# High-side gate resistor network (turn-on / turn-off)
+# ─────────────────────────────────────────────
+drv_h_out = Net("DRV_H_OUT")
+drv_h[6] += drv_h_out        # OUT pin of high-side driver
+
+gate_h = Net("GATE_H")
+
+# Turn-on resistor
+r_gon_h = Part("test", "R", value="10R", footprint="test:R_0805")
+r_gon_h.ref = "R_GON_H"
+r_gon_h[1] += drv_h_out
+r_gon_h[2] += gate_h
+
+# Turn-off resistor with anti-parallel diode
+r_goff_h = Part("test", "R", value="2R2", footprint="test:R_0805")
+r_goff_h.ref = "R_GOFF_H"
+
+d_goff_h = Part("test", "D", footprint="test:BAT165")
+d_goff_h.ref = "D_GOFF_H"
+
+# Anti-parallel diode: conducts during turn-off (gate discharging back to driver)
+# D pin1=K(Anode label), pin2=A(Cathode label) per component definition
+d_goff_h[2] += gate_h        # pin2(A) at gate node
+d_goff_h[1] += r_goff_h[1]  # pin1(K) toward driver side
+r_goff_h[2] += drv_h_out
+
+# Kelvin source net for high-side - GND2 of driver connects to KS
+ks_h = Net("KS_H")
+gnd_sec_h += ks_h
+
+# ─────────────────────────────────────────────
+# High-side MOSFET (IMZA65R015M2H)
+# ─────────────────────────────────────────────
+q_h = Part("test", "IMZA65R015M2H", footprint="test:IMZA65R015M2H")
+q_h.ref = "Q_H"
+
+q_h[1] += vin                # Drain  -> VIN (DC bus)
+q_h[2] += vsw                # Source -> Switch node
+q_h[3] += ks_h               # Kelvin Source -> driver GND2
+q_h[4] += gate_h             # Gate   -> gate resistor network
+
+# ─────────────────────────────────────────────
+# Low-side gate driver (UCC5390E_L)
+# ─────────────────────────────────────────────
+drv_l = Part("test", "UCC5390E", footprint="test:UCC5390E")
+drv_l.ref = "U_DRV_L"
+
+# Primary side connections
+drv_l[1] += vcc_pri          # VCC1
+drv_l[4] += gnd_pri          # GND1
+drv_l[2] += pwm_l            # IN+
+drv_l[3] += gnd_pri          # IN-
+
+# Secondary side connections
+drv_l[5] += vdd_l            # VCC2 - +15V
+drv_l[7] += gnd_sec_l        # GND2 - isolated 0V
+drv_l[8] += vee_l            # VEE2 - -9V
+
+# Decoupling on driver primary
+c_drv_l_pri = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_drv_l_pri.ref = "C_DRV_L_PRI"
+c_drv_l_pri[1] += vcc_pri
+c_drv_l_pri[2] += gnd_pri
+
+# Decoupling on driver secondary
+c_drv_l_sec = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_drv_l_sec.ref = "C_DRV_L_SEC"
+c_drv_l_sec[1] += vdd_l
+c_drv_l_sec[2] += gnd_sec_l
+
+# ─────────────────────────────────────────────
+# Low-side gate resistor network (turn-on / turn-off)
+# ─────────────────────────────────────────────
+drv_l_out = Net("DRV_L_OUT")
+drv_l[6] += drv_l_out        # OUT pin of low-side driver
+
+gate_l = Net("GATE_L")
+
+# Turn-on resistor
+r_gon_l = Part("test", "R", value="10R", footprint="test:R_0805")
+r_gon_l.ref = "R_GON_L"
+r_gon_l[1] += drv_l_out
+r_gon_l[2] += gate_l
+
+# Turn-off resistor with anti-parallel diode
+r_goff_l = Part("test", "R", value="2R2", footprint="test:R_0805")
+r_goff_l.ref = "R_GOFF_L"
+
+d_goff_l = Part("test", "D", footprint="test:BAT165")
+d_goff_l.ref = "D_GOFF_L"
+
+d_goff_l[2] += gate_l        # pin2(A) at gate node
+d_goff_l[1] += r_goff_l[1]  # pin1(K) toward driver side
+r_goff_l[2] += drv_l_out
+
+# Kelvin source net for low-side
+ks_l = Net("KS_L")
+gnd_sec_l += ks_l
+
+# ─────────────────────────────────────────────
+# Low-side MOSFET (IMZA65R015M2H)
+# ─────────────────────────────────────────────
+q_l = Part("test", "IMZA65R015M2H", footprint="test:IMZA65R015M2H")
+q_l.ref = "Q_L"
+
+q_l[1] += vsw                # Drain  -> Switch node
+q_l[2] += pgnd               # Source -> Power GND
+q_l[3] += ks_l               # Kelvin Source -> driver GND2
+q_l[4] += gate_l             # Gate   -> gate resistor network
+
+# ─────────────────────────────────────────────
+# VBUS decoupling capacitors (minimum 8 required)
+# ─────────────────────────────────────────────
+vbus_dec_values = [
+    "100nF", "100nF", "100nF", "100nF",
+    "100nF", "100nF", "100nF", "100nF",
+    "10uF",  "10uF"
+]
+
+for i, val in enumerate(vbus_dec_values):
+    c = Part("test", "C", value=val, footprint="test:C_0805")
+    c.ref = "C_VBUS{}".format(i + 1)
+    c[1] += vin
+    c[2] += pgnd
+
+# ─────────────────────────────────────────────
+# Output LC filter
+# ─────────────────────────────────────────────
+# Power inductor: pins 1-6 = Terminal A (VSW side), pins 7-12 = Terminal B (VOUT side)
+l_out = Part("test", "Inductor_power", footprint="test:Inductor_power")
+l_out.ref = "L_OUT"
+l_out.value = "10uH"
+
+# Connect all A-side pins to VSW
+l_out[1]  += vsw
+l_out[2]  += vsw
+l_out[3]  += vsw
+l_out[4]  += vsw
+l_out[5]  += vsw
+l_out[6]  += vsw
+
+# Connect all B-side pins to VOUT
+l_out[7]  += vout
+l_out[8]  += vout
+l_out[9]  += vout
+l_out[10] += vout
+l_out[11] += vout
+l_out[12] += vout
+
+# Output filter capacitors (minimum 4 required)
+c_out1 = Part("test", "C", value="100uF", footprint="test:C_0805")
+c_out1.ref = "C_OUT1"
+c_out1[1] += vout
+c_out1[2] += pgnd
+
+c_out2 = Part("test", "C", value="100uF", footprint="test:C_0805")
+c_out2.ref = "C_OUT2"
+c_out2[1] += vout
+c_out2[2] += pgnd
+
+c_out3 = Part("test", "C", value="100uF", footprint="test:C_0805")
+c_out3.ref = "C_OUT3"
+c_out3[1] += vout
+c_out3[2] += pgnd
+
+c_out4 = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_out4.ref = "C_OUT4"
+c_out4[1] += vout
+c_out4[2] += pgnd
+
+# ─────────────────────────────────────────────
+# Primary-side decoupling for VCC_PRI
+# ─────────────────────────────────────────────
+c_vcc_pri1 = Part("test", "C", value="100nF", footprint="test:C_0805")
+c_vcc_pri1.ref = "C_VCCPRI1"
+c_vcc_pri1[1] += vcc_pri
+c_vcc_pri1[2] += gnd_pri
+
+c_vcc_pri2 = Part("test", "C", value="10uF", footprint="test:C_0805")
+c_vcc_pri2.ref = "C_VCCPRI2"
+c_vcc_pri2[1] += vcc_pri
+c_vcc_pri2[2] += gnd_pri
+
+# ─────────────────────────────────────────────
+ERC()
+
+
+# Artifact Generation
+import os
+errors = []
+
+try:
+    ERC()
+except Exception:
+    pass # Already checked
+
+try:
+    generate_netlist(tool=KICAD9)
+except Exception as e:
+    errors.append(f"NETLIST: {e}")
+
+try:
+    generate_svg()
+except Exception as e:
+    errors.append(f"SVG: {e}")
+
+try:
+    fp_libs = []
+    test_pretty = os.path.join(lib_path, "test.pretty")
+    if os.path.isdir(test_pretty):
+        fp_libs.append(test_pretty)
+    if os.path.isdir(lib_path):
+        fp_libs.append(lib_path)
+    pcb_file = f"extracted_task_{TASK_ID}.kicad_pcb"
+    generate_pcb(pcb_file=pcb_file, fp_libs=fp_libs or None)
+except Exception as e:
+    errors.append(f"PCB: {e}")
+
+if errors:
+    print("ARTIFACT_ERROR_START")
+    for msg in errors:
+        print(msg)
+    print("ARTIFACT_ERROR_END")
+    raise SystemExit(1)
