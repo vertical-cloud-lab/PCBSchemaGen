@@ -12,6 +12,7 @@ This guide is the minimum, correct setup to run:
 - KiCad 9 (includes `kicad-cli` and `pcbnew`)
 - KiCad symbol/footprint libraries
 - Cairo/Pango libraries (for SVG rendering)
+- Node.js + npm (for the `netlistsvg` CLI used by `generate_svg()`)
 
 ## 2) Step-by-Step Installation (Ubuntu/WSL)
 
@@ -42,6 +43,15 @@ python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"
 cd /path/to/PCBSchemaGen
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
+```
+
+### Step 4: netlistsvg (required for SVG generation)
+SKiDL's `generate_svg()` invokes the `netlistsvg` CLI. Without it, SVG
+generation fails and `run_samples_test.py` reports `[FAIL]` for every task.
+```bash
+# Install Node.js + npm first (e.g. sudo apt-get install -y nodejs npm)
+npm install -g netlistsvg
+netlistsvg --help   # verify it is on your PATH
 ```
 
 ## 3) Installation Verification (Required)
