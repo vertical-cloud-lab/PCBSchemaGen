@@ -1,0 +1,12 @@
+ERC WARNING: Merging two named nets (KS_H and GND_SEC_H) into KS_H.
+ERC WARNING: Merging two named nets (KS_L and GND_SEC_L) into KS_L.
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_H) attached to net PWM_H.
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_L) attached to net PWM_L.
+ERC INFO: 4 warnings found while running ERC.
+ERC INFO: 0 errors found while running ERC.
+
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_H) attached to net PWM_H.
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_L) attached to net PWM_L.
+ERC INFO: 2 warnings found while running ERC.
+ERC INFO: 0 errors found while running ERC.
+
