@@ -1,0 +1,1467 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="4061.0500000000006" height="839.9840000000002">
+  <style>svg {
+    stroke: #000;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  text {
+    fill: #000;
+    stroke: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+  }
+  .skidl_text {
+    fill: #999;
+    stroke: none;
+    font-weight: bold;
+    font-family: consolas, "Courier New", monospace;
+  }
+  .pin_num_text {
+      fill: #840000;
+  }
+  .pin_name_text {
+      fill: #008484;
+  }
+  .net_name_text {
+      font-style: italic;
+      fill: #840084;
+  }
+  .part_text {
+      fill: #840000;
+  }
+  .part_ref_text {
+      fill: #008484;
+  }
+  .part_name_text {
+      fill: #008484;
+  }
+  .pen_fill {
+      fill: #840000;
+  }
+  .background_fill {
+      fill: #FFFFC2
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill: #000;
+  }
+  .symbol {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke: #840000;
+  }
+  .detail {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #000;
+  }</style>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2720.509,287.456)" id="cell_C1">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C1 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C1 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C1</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(763.393,287.456)" id="cell_C10">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C10 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C10 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C10 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C10 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C10</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2760.016,651.6800000000001)" id="cell_C2">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C2 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C2 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C2</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(3462.5480000000002,631.6800000000001)" id="cell_C3">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C3 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C3 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C3 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C3 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C3</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10uF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(186.20499999999998,287.456)" id="cell_C4">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C4 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C4 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C4 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C4 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C4</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(186.20499999999998,607.296)" id="cell_C5">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C5 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C5 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C5 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C5 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C5</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1298.4070000000002,307.4560000000001)" id="cell_C6">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C6 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C6 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C6 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C6 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C6</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10uF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2557.495,307.4560000000001)" id="cell_C7">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C7 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C7 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C7 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C7 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C7</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2790.016,297.4560000000001)" id="cell_C8">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C8 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C8 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C8 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C8 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C8</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2468.4809999999998,307.4560000000001)" id="cell_C9">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C9 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C9 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C9 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C9 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C9</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1476.435,297.456)" id="cell_C_OUT1">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_OUT1 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_OUT1 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_OUT1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_OUT1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_OUT1</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100uF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1387.421,297.456)" id="cell_C_OUT2">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_OUT2 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_OUT2 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_OUT2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_OUT2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_OUT2</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100uF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1565.4489999999998,297.456)" id="cell_C_OUT3">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_OUT3 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_OUT3 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_OUT3 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_OUT3 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_OUT3</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1654.4629999999997,297.456)" id="cell_C_VBUS1">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS1 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS1 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS1</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1200.4070000000002,297.456)" id="cell_C_VBUS10">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS10 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS10 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS10 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS10 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS10</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10uF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1016.407,297.456)" id="cell_C_VBUS2">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS2 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS2 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS2</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1108.4070000000002,297.456)" id="cell_C_VBUS3">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS3 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS3 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS3 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS3 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS3</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1746.4629999999997,297.456)" id="cell_C_VBUS4">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS4 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS4 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS4 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS4 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS4</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2022.4629999999997,297.456)" id="cell_C_VBUS5">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS5 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS5 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS5 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS5 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS5</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1930.4629999999997,297.456)" id="cell_C_VBUS6">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS6 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS6 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS6 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS6 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS6</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(1838.4629999999997,297.456)" id="cell_C_VBUS7">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS7 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS7 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS7 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS7 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS7</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(832.407,297.456)" id="cell_C_VBUS8">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS8 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS8 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS8 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS8 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS8</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(924.407,297.456)" id="cell_C_VBUS9">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VBUS9 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VBUS9 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VBUS9 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VBUS9 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VBUS9</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10uF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2646.509,307.4560000000001)" id="cell_C_VCCPRI1">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VCCPRI1 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VCCPRI1 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VCCPRI1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VCCPRI1 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VCCPRI1</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">100nF</text>
+  </g>
+  <g s:type="C_1_" s:width="39.014" s:height="73.152" transform="translate(2364.4809999999998,307.4560000000001)" id="cell_C_VCCPRI2">
+    <s:alias val="C_1_"/>
+    <polyline points="0.000,29.261 39.014,29.261" style="stroke-width:4.877" class="cell_C_VCCPRI2 symbol none"/>
+    <polyline points="0.000,43.891 39.014,43.891" style="stroke-width:4.877" class="cell_C_VCCPRI2 symbol none"/>
+    <polyline points="19.507,0.000 19.507,26.822" style="stroke-width:0.960" class="cell_C_VCCPRI2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="19.507" y="26.822" transform="rotate(-90 19.507 26.822)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="19.507" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="19.507,73.152 19.507,46.330" style="stroke-width:0.960" class="cell_C_VCCPRI2 symbol none"/>
+    <text class="pin_num_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="19.507" y="46.330" transform="rotate(-90 19.507 46.330)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="19.507" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="25.603" y="12.192" transform="rotate(0 25.603 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">C_VCCPRI2</text>
+    <text class="part_name_text" x="25.603" y="60.960" transform="rotate(0 25.603 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10uF</text>
+  </g>
+  <g s:type="D_1_" s:width="173.126" s:height="89.002" transform="translate(3532.5620000000004,158.45400000000004)" id="cell_D_GOFF_H">
+    <s:alias val="D_1_"/>
+    <polyline points="48.768,64.618 48.768,89.002" style="stroke-width:2.438" class="cell_D_GOFF_H symbol none"/>
+    <polyline points="73.152,64.618 73.152,89.002 48.768,76.810 73.152,64.618" style="stroke-width:2.438" class="cell_D_GOFF_H symbol none"/>
+    <polyline points="73.152,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_D_GOFF_H symbol none"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_D_GOFF_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  K</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="121.920,76.810 73.152,76.810" style="stroke-width:0.960" class="cell_D_GOFF_H symbol none"/>
+    <text class="pin_num_text" x="73.152" y="76.810" transform="rotate(0 73.152 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  2</text>
+    <text class="pin_name_text" x="73.152" y="76.810" transform="rotate(0 73.152 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">A  </text>
+    <g s:x="121.920" s:y="76.810" s:pid="2" s:position="right"/>
+    <text class="part_ref_text" x="158.496" y="3.658" transform="rotate(0 158.496 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">D_GOFF_H</text>
+    <text class="part_name_text" x="158.496" y="28.042" transform="rotate(0 158.496 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">D</text>
+  </g>
+  <g s:type="D_1_" s:width="173.126" s:height="89.002" transform="translate(121.36999999999998,148.45400000000004)" id="cell_D_GOFF_L">
+    <s:alias val="D_1_"/>
+    <polyline points="48.768,64.618 48.768,89.002" style="stroke-width:2.438" class="cell_D_GOFF_L symbol none"/>
+    <polyline points="73.152,64.618 73.152,89.002 48.768,76.810 73.152,64.618" style="stroke-width:2.438" class="cell_D_GOFF_L symbol none"/>
+    <polyline points="73.152,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_D_GOFF_L symbol none"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_D_GOFF_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  K</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="121.920,76.810 73.152,76.810" style="stroke-width:0.960" class="cell_D_GOFF_L symbol none"/>
+    <text class="pin_num_text" x="73.152" y="76.810" transform="rotate(0 73.152 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  2</text>
+    <text class="pin_name_text" x="73.152" y="76.810" transform="rotate(0 73.152 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">A  </text>
+    <g s:x="121.920" s:y="76.810" s:pid="2" s:position="right"/>
+    <text class="part_ref_text" x="158.496" y="3.658" transform="rotate(0 158.496 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">D_GOFF_L</text>
+    <text class="part_name_text" x="158.496" y="28.042" transform="rotate(0 158.496 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">D</text>
+  </g>
+  <g s:type="Inductor_power_1_" s:width="285.293" s:height="223.114" transform="translate(374.49600000000004,14.342)" id="cell_L_OUT">
+    <s:alias val="Inductor_power_1_"/>
+    <rect x="48.768" y="52.426" width="121.920" height="170.688" style="stroke-width:2.438" class="cell_L_OUT symbol background"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  1</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="0.000,101.194 48.768,101.194" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  2</text>
+    <g s:x="0.000" s:y="101.194" s:pid="2" s:position="left"/>
+    <polyline points="0.000,125.578 48.768,125.578" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="end">3  </text>
+    <text class="pin_name_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  3</text>
+    <g s:x="0.000" s:y="125.578" s:pid="3" s:position="left"/>
+    <polyline points="0.000,149.962 48.768,149.962" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="end">4  </text>
+    <text class="pin_name_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  4</text>
+    <g s:x="0.000" s:y="149.962" s:pid="4" s:position="left"/>
+    <polyline points="0.000,174.346 48.768,174.346" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="48.768" y="174.346" transform="rotate(0 48.768 174.346)" style="font-size:12.192" dominant-baseline="" text-anchor="end">5  </text>
+    <text class="pin_name_text" x="48.768" y="174.346" transform="rotate(0 48.768 174.346)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  5</text>
+    <g s:x="0.000" s:y="174.346" s:pid="5" s:position="left"/>
+    <polyline points="0.000,198.730 48.768,198.730" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="48.768" y="198.730" transform="rotate(0 48.768 198.730)" style="font-size:12.192" dominant-baseline="" text-anchor="end">6  </text>
+    <text class="pin_name_text" x="48.768" y="198.730" transform="rotate(0 48.768 198.730)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  6</text>
+    <g s:x="0.000" s:y="198.730" s:pid="6" s:position="left"/>
+    <polyline points="219.456,76.810 170.688,76.810" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="170.688" y="76.810" transform="rotate(0 170.688 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  12</text>
+    <text class="pin_name_text" x="170.688" y="76.810" transform="rotate(0 170.688 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">12  </text>
+    <g s:x="219.456" s:y="76.810" s:pid="12" s:position="right"/>
+    <polyline points="219.456,101.194 170.688,101.194" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="170.688" y="101.194" transform="rotate(0 170.688 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  11</text>
+    <text class="pin_name_text" x="170.688" y="101.194" transform="rotate(0 170.688 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">11  </text>
+    <g s:x="219.456" s:y="101.194" s:pid="11" s:position="right"/>
+    <polyline points="219.456,125.578 170.688,125.578" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="170.688" y="125.578" transform="rotate(0 170.688 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  10</text>
+    <text class="pin_name_text" x="170.688" y="125.578" transform="rotate(0 170.688 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">10  </text>
+    <g s:x="219.456" s:y="125.578" s:pid="10" s:position="right"/>
+    <polyline points="219.456,149.962 170.688,149.962" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="170.688" y="149.962" transform="rotate(0 170.688 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  9</text>
+    <text class="pin_name_text" x="170.688" y="149.962" transform="rotate(0 170.688 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">9  </text>
+    <g s:x="219.456" s:y="149.962" s:pid="9" s:position="right"/>
+    <polyline points="219.456,174.346 170.688,174.346" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="170.688" y="174.346" transform="rotate(0 170.688 174.346)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  8</text>
+    <text class="pin_name_text" x="170.688" y="174.346" transform="rotate(0 170.688 174.346)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">8  </text>
+    <g s:x="219.456" s:y="174.346" s:pid="8" s:position="right"/>
+    <polyline points="219.456,198.730 170.688,198.730" style="stroke-width:0.960" class="cell_L_OUT symbol none"/>
+    <text class="pin_num_text" x="170.688" y="198.730" transform="rotate(0 170.688 198.730)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  7</text>
+    <text class="pin_name_text" x="170.688" y="198.730" transform="rotate(0 170.688 198.730)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">7  </text>
+    <g s:x="219.456" s:y="198.730" s:pid="7" s:position="right"/>
+    <text class="part_ref_text" x="182.880" y="3.658" transform="rotate(0 182.880 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">L_OUT</text>
+    <text class="part_name_text" x="182.880" y="28.042" transform="rotate(0 182.880 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10uH</text>
+  </g>
+  <g s:type="IMZA65R015M2H_1_" s:width="217.018" s:height="146.304" transform="translate(2126.4629999999997,410.60800000000006)" id="cell_Q_H">
+    <s:alias val="IMZA65R015M2H_1_"/>
+    <polyline points="48.768,97.536 48.768,103.632 97.536,103.632" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <polyline points="75.590,54.864 75.590,91.440" style="stroke-width:2.438" class="cell_Q_H symbol none"/>
+    <polyline points="75.590,73.152 48.768,73.152" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <polyline points="80.467,51.206 80.467,60.960" style="stroke-width:2.438" class="cell_Q_H symbol none"/>
+    <polyline points="80.467,68.275 80.467,78.029" style="stroke-width:2.438" class="cell_Q_H symbol none"/>
+    <polyline points="80.467,85.344 80.467,95.098" style="stroke-width:2.438" class="cell_Q_H symbol none"/>
+    <polyline points="80.467,90.221 104.851,90.221 104.851,56.083 80.467,56.083" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <polyline points="82.906,73.152 92.659,69.494 92.659,76.810 82.906,73.152" style="stroke-width:0.960" class="cell_Q_H symbol outline"/>
+    <circle cx="89.002" cy="73.152" r="26.822" style="stroke-width:2.438" class="cell_Q_H symbol none"/>
+    <polyline points="97.536,48.768 97.536,56.083" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <circle cx="97.536" cy="56.083" r="2.438" style="stroke-width:0.960" class="cell_Q_H symbol outline"/>
+    <circle cx="97.536" cy="90.221" r="2.438" style="stroke-width:0.960" class="cell_Q_H symbol outline"/>
+    <polyline points="97.536,97.536 97.536,73.152 80.467,73.152" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <circle cx="97.536" cy="103.632" r="2.682" style="stroke-width:0.960" class="cell_Q_H symbol outline"/>
+    <polyline points="99.974,68.275 101.194,69.494 108.509,69.494 109.728,70.714" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <polyline points="104.851,69.494 101.194,75.590 108.509,75.590 104.851,69.494" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <polyline points="0.000,73.152 48.768,73.152" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="73.152" transform="rotate(0 48.768 73.152)" style="font-size:12.192" dominant-baseline="" text-anchor="end">4  </text>
+    <text class="pin_name_text" x="48.768" y="73.152" transform="rotate(0 48.768 73.152)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  G</text>
+    <g s:x="0.000" s:y="73.152" s:pid="4" s:position="left"/>
+    <polyline points="0.000,97.536 48.768,97.536" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="97.536" transform="rotate(0 48.768 97.536)" style="font-size:12.192" dominant-baseline="" text-anchor="end">3  </text>
+    <text class="pin_name_text" x="48.768" y="97.536" transform="rotate(0 48.768 97.536)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  KS</text>
+    <g s:x="0.000" s:y="97.536" s:pid="3" s:position="left"/>
+    <polyline points="97.536,0.000 97.536,48.768" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <text class="pin_num_text" x="97.536" y="48.768" transform="rotate(-90 97.536 48.768)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="97.536" y="48.768" transform="rotate(-90 97.536 48.768)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">D  </text>
+    <g s:x="97.536" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="97.536,146.304 97.536,97.536" style="stroke-width:0.960" class="cell_Q_H symbol none"/>
+    <text class="pin_num_text" x="97.536" y="97.536" transform="rotate(-90 97.536 97.536)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="97.536" y="97.536" transform="rotate(-90 97.536 97.536)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  S</text>
+    <g s:x="97.536" s:y="146.304" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="121.920" y="14.630" transform="rotate(0 121.920 14.630)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">Q_H</text>
+    <text class="part_name_text" x="121.920" y="39.014" transform="rotate(0 121.920 39.014)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">IMZA65R015M2H</text>
+  </g>
+  <g s:type="IMZA65R015M2H_1_" s:width="217.018" s:height="146.304" transform="translate(215.712,410.60800000000006)" id="cell_Q_L">
+    <s:alias val="IMZA65R015M2H_1_"/>
+    <polyline points="48.768,97.536 48.768,103.632 97.536,103.632" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <polyline points="75.590,54.864 75.590,91.440" style="stroke-width:2.438" class="cell_Q_L symbol none"/>
+    <polyline points="75.590,73.152 48.768,73.152" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <polyline points="80.467,51.206 80.467,60.960" style="stroke-width:2.438" class="cell_Q_L symbol none"/>
+    <polyline points="80.467,68.275 80.467,78.029" style="stroke-width:2.438" class="cell_Q_L symbol none"/>
+    <polyline points="80.467,85.344 80.467,95.098" style="stroke-width:2.438" class="cell_Q_L symbol none"/>
+    <polyline points="80.467,90.221 104.851,90.221 104.851,56.083 80.467,56.083" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <polyline points="82.906,73.152 92.659,69.494 92.659,76.810 82.906,73.152" style="stroke-width:0.960" class="cell_Q_L symbol outline"/>
+    <circle cx="89.002" cy="73.152" r="26.822" style="stroke-width:2.438" class="cell_Q_L symbol none"/>
+    <polyline points="97.536,48.768 97.536,56.083" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <circle cx="97.536" cy="56.083" r="2.438" style="stroke-width:0.960" class="cell_Q_L symbol outline"/>
+    <circle cx="97.536" cy="90.221" r="2.438" style="stroke-width:0.960" class="cell_Q_L symbol outline"/>
+    <polyline points="97.536,97.536 97.536,73.152 80.467,73.152" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <circle cx="97.536" cy="103.632" r="2.682" style="stroke-width:0.960" class="cell_Q_L symbol outline"/>
+    <polyline points="99.974,68.275 101.194,69.494 108.509,69.494 109.728,70.714" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <polyline points="104.851,69.494 101.194,75.590 108.509,75.590 104.851,69.494" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <polyline points="0.000,73.152 48.768,73.152" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="73.152" transform="rotate(0 48.768 73.152)" style="font-size:12.192" dominant-baseline="" text-anchor="end">4  </text>
+    <text class="pin_name_text" x="48.768" y="73.152" transform="rotate(0 48.768 73.152)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  G</text>
+    <g s:x="0.000" s:y="73.152" s:pid="4" s:position="left"/>
+    <polyline points="0.000,97.536 48.768,97.536" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="97.536" transform="rotate(0 48.768 97.536)" style="font-size:12.192" dominant-baseline="" text-anchor="end">3  </text>
+    <text class="pin_name_text" x="48.768" y="97.536" transform="rotate(0 48.768 97.536)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  KS</text>
+    <g s:x="0.000" s:y="97.536" s:pid="3" s:position="left"/>
+    <polyline points="97.536,0.000 97.536,48.768" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <text class="pin_num_text" x="97.536" y="48.768" transform="rotate(-90 97.536 48.768)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="97.536" y="48.768" transform="rotate(-90 97.536 48.768)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">D  </text>
+    <g s:x="97.536" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="97.536,146.304 97.536,97.536" style="stroke-width:0.960" class="cell_Q_L symbol none"/>
+    <text class="pin_num_text" x="97.536" y="97.536" transform="rotate(-90 97.536 97.536)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="97.536" y="97.536" transform="rotate(-90 97.536 97.536)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  S</text>
+    <g s:x="97.536" s:y="146.304" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="121.920" y="14.630" transform="rotate(0 121.920 14.630)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">Q_L</text>
+    <text class="part_name_text" x="121.920" y="39.014" transform="rotate(0 121.920 39.014)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">IMZA65R015M2H</text>
+  </g>
+  <g s:type="R_1_" s:width="46.330" s:height="73.152" transform="translate(3499.3970000000004,307.4560000000001)" id="cell_R_GOFF_H">
+    <s:alias val="R_1_"/>
+    <rect x="13.411" y="12.192" width="19.507" height="48.768" style="stroke-width:2.438" class="cell_R_GOFF_H symbol none"/>
+    <polyline points="23.165,0.000 23.165,12.192" style="stroke-width:0.960" class="cell_R_GOFF_H symbol none"/>
+    <text class="pin_num_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="23.165" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="23.165,73.152 23.165,60.960" style="stroke-width:0.960" class="cell_R_GOFF_H symbol none"/>
+    <text class="pin_num_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="23.165" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="42.672" y="36.576" transform="rotate(-90 42.672 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">R_GOFF_H</text>
+    <text class="part_name_text" x="3.658" y="36.576" transform="rotate(-90 3.658 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">2R2</text>
+  </g>
+  <g s:type="R_1_" s:width="46.330" s:height="73.152" transform="translate(88.20499999999998,287.456)" id="cell_R_GOFF_L">
+    <s:alias val="R_1_"/>
+    <rect x="13.411" y="12.192" width="19.507" height="48.768" style="stroke-width:2.438" class="cell_R_GOFF_L symbol none"/>
+    <polyline points="23.165,0.000 23.165,12.192" style="stroke-width:0.960" class="cell_R_GOFF_L symbol none"/>
+    <text class="pin_num_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="23.165" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="23.165,73.152 23.165,60.960" style="stroke-width:0.960" class="cell_R_GOFF_L symbol none"/>
+    <text class="pin_num_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="23.165" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="42.672" y="36.576" transform="rotate(-90 42.672 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">R_GOFF_L</text>
+    <text class="part_name_text" x="3.658" y="36.576" transform="rotate(-90 3.658 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">2R2</text>
+  </g>
+  <g s:type="R_1_" s:width="46.330" s:height="73.152" transform="translate(2093.298,62.96000000000002)" id="cell_R_GON_H">
+    <s:alias val="R_1_"/>
+    <rect x="13.411" y="12.192" width="19.507" height="48.768" style="stroke-width:2.438" class="cell_R_GON_H symbol none"/>
+    <polyline points="23.165,0.000 23.165,12.192" style="stroke-width:0.960" class="cell_R_GON_H symbol none"/>
+    <text class="pin_num_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="23.165" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="23.165,73.152 23.165,60.960" style="stroke-width:0.960" class="cell_R_GON_H symbol none"/>
+    <text class="pin_num_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="23.165" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="42.672" y="36.576" transform="rotate(-90 42.672 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">R_GON_H</text>
+    <text class="part_name_text" x="3.658" y="36.576" transform="rotate(-90 3.658 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10R</text>
+  </g>
+  <g s:type="R_1_" s:width="46.330" s:height="73.152" transform="translate(22.04,52.96000000000002)" id="cell_R_GON_L">
+    <s:alias val="R_1_"/>
+    <rect x="13.411" y="12.192" width="19.507" height="48.768" style="stroke-width:2.438" class="cell_R_GON_L symbol none"/>
+    <polyline points="23.165,0.000 23.165,12.192" style="stroke-width:0.960" class="cell_R_GON_L symbol none"/>
+    <text class="pin_num_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  1</text>
+    <text class="pin_name_text" x="23.165" y="12.192" transform="rotate(-90 23.165 12.192)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">~  </text>
+    <g s:x="23.165" s:y="0.000" s:pid="1" s:position="top"/>
+    <polyline points="23.165,73.152 23.165,60.960" style="stroke-width:0.960" class="cell_R_GON_L symbol none"/>
+    <text class="pin_num_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="23.165" y="60.960" transform="rotate(-90 23.165 60.960)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  ~</text>
+    <g s:x="23.165" s:y="73.152" s:pid="2" s:position="bottom"/>
+    <text class="part_ref_text" x="42.672" y="36.576" transform="rotate(-90 42.672 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">R_GON_L</text>
+    <text class="part_name_text" x="3.658" y="36.576" transform="rotate(-90 3.658 36.576)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">10R</text>
+  </g>
+  <g s:type="UCC5390E_1_" s:width="290.170" s:height="174.346" transform="translate(3132.378,412.95000000000005)" id="cell_U_DRV_H">
+    <s:alias val="UCC5390E_1_"/>
+    <rect x="48.768" y="52.426" width="170.688" height="121.920" style="stroke-width:2.438" class="cell_U_DRV_H symbol background"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  VCC1</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="0.000,101.194 48.768,101.194" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  IN+</text>
+    <g s:x="0.000" s:y="101.194" s:pid="2" s:position="left"/>
+    <polyline points="0.000,125.578 48.768,125.578" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="end">3  </text>
+    <text class="pin_name_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  IN-</text>
+    <g s:x="0.000" s:y="125.578" s:pid="3" s:position="left"/>
+    <polyline points="0.000,149.962 48.768,149.962" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="end">4  </text>
+    <text class="pin_name_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  GND1</text>
+    <g s:x="0.000" s:y="149.962" s:pid="4" s:position="left"/>
+    <polyline points="268.224,76.810 219.456,76.810" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="219.456" y="76.810" transform="rotate(0 219.456 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  8</text>
+    <text class="pin_name_text" x="219.456" y="76.810" transform="rotate(0 219.456 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">VEE2  </text>
+    <g s:x="268.224" s:y="76.810" s:pid="8" s:position="right"/>
+    <polyline points="268.224,101.194 219.456,101.194" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="219.456" y="101.194" transform="rotate(0 219.456 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  7</text>
+    <text class="pin_name_text" x="219.456" y="101.194" transform="rotate(0 219.456 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">GND2  </text>
+    <g s:x="268.224" s:y="101.194" s:pid="7" s:position="right"/>
+    <polyline points="268.224,125.578 219.456,125.578" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="219.456" y="125.578" transform="rotate(0 219.456 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  6</text>
+    <text class="pin_name_text" x="219.456" y="125.578" transform="rotate(0 219.456 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">OUT  </text>
+    <g s:x="268.224" s:y="125.578" s:pid="6" s:position="right"/>
+    <polyline points="268.224,149.962 219.456,149.962" style="stroke-width:0.960" class="cell_U_DRV_H symbol none"/>
+    <text class="pin_num_text" x="219.456" y="149.962" transform="rotate(0 219.456 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  5</text>
+    <text class="pin_name_text" x="219.456" y="149.962" transform="rotate(0 219.456 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">VCC2  </text>
+    <g s:x="268.224" s:y="149.962" s:pid="5" s:position="right"/>
+    <text class="part_ref_text" x="231.648" y="3.658" transform="rotate(0 231.648 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">U_DRV_H</text>
+    <text class="part_name_text" x="231.648" y="28.042" transform="rotate(0 231.648 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">UCC5390E</text>
+  </g>
+  <g s:type="UCC5390E_1_" s:width="290.170" s:height="174.346" transform="translate(472.73,402.95000000000005)" id="cell_U_DRV_L">
+    <s:alias val="UCC5390E_1_"/>
+    <rect x="48.768" y="52.426" width="170.688" height="121.920" style="stroke-width:2.438" class="cell_U_DRV_L symbol background"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  VCC1</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="0.000,101.194 48.768,101.194" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  IN+</text>
+    <g s:x="0.000" s:y="101.194" s:pid="2" s:position="left"/>
+    <polyline points="0.000,125.578 48.768,125.578" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="end">3  </text>
+    <text class="pin_name_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  IN-</text>
+    <g s:x="0.000" s:y="125.578" s:pid="3" s:position="left"/>
+    <polyline points="0.000,149.962 48.768,149.962" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="end">4  </text>
+    <text class="pin_name_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  GND1</text>
+    <g s:x="0.000" s:y="149.962" s:pid="4" s:position="left"/>
+    <polyline points="268.224,76.810 219.456,76.810" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="219.456" y="76.810" transform="rotate(0 219.456 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  8</text>
+    <text class="pin_name_text" x="219.456" y="76.810" transform="rotate(0 219.456 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">VEE2  </text>
+    <g s:x="268.224" s:y="76.810" s:pid="8" s:position="right"/>
+    <polyline points="268.224,101.194 219.456,101.194" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="219.456" y="101.194" transform="rotate(0 219.456 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  7</text>
+    <text class="pin_name_text" x="219.456" y="101.194" transform="rotate(0 219.456 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">GND2  </text>
+    <g s:x="268.224" s:y="101.194" s:pid="7" s:position="right"/>
+    <polyline points="268.224,125.578 219.456,125.578" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="219.456" y="125.578" transform="rotate(0 219.456 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  6</text>
+    <text class="pin_name_text" x="219.456" y="125.578" transform="rotate(0 219.456 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">OUT  </text>
+    <g s:x="268.224" s:y="125.578" s:pid="6" s:position="right"/>
+    <polyline points="268.224,149.962 219.456,149.962" style="stroke-width:0.960" class="cell_U_DRV_L symbol none"/>
+    <text class="pin_num_text" x="219.456" y="149.962" transform="rotate(0 219.456 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="start">  5</text>
+    <text class="pin_name_text" x="219.456" y="149.962" transform="rotate(0 219.456 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="end">VCC2  </text>
+    <g s:x="268.224" s:y="149.962" s:pid="5" s:position="right"/>
+    <text class="part_ref_text" x="231.648" y="3.658" transform="rotate(0 231.648 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">U_DRV_L</text>
+    <text class="part_name_text" x="231.648" y="28.042" transform="rotate(0 231.648 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">UCC5390E</text>
+  </g>
+  <g s:type="MGJ2D121505SC_1_" s:width="302.362" s:height="198.730" transform="translate(2790.016,412.95000000000005)" id="cell_U_ISO_H">
+    <s:alias val="MGJ2D121505SC_1_"/>
+    <rect x="48.768" y="52.426" width="146.304" height="146.304" style="stroke-width:2.438" class="cell_U_ISO_H symbol background"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_U_ISO_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  +VIN</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="0.000,101.194 48.768,101.194" style="stroke-width:0.960" class="cell_U_ISO_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  -VIN</text>
+    <g s:x="0.000" s:y="101.194" s:pid="2" s:position="left"/>
+    <polyline points="0.000,125.578 48.768,125.578" style="stroke-width:0.960" class="cell_U_ISO_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="end">5  </text>
+    <text class="pin_name_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  -VOUT</text>
+    <g s:x="0.000" s:y="125.578" s:pid="5" s:position="left"/>
+    <polyline points="0.000,149.962 48.768,149.962" style="stroke-width:0.960" class="cell_U_ISO_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="end">6  </text>
+    <text class="pin_name_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  0V</text>
+    <g s:x="0.000" s:y="149.962" s:pid="6" s:position="left"/>
+    <polyline points="0.000,174.346 48.768,174.346" style="stroke-width:0.960" class="cell_U_ISO_H symbol none"/>
+    <text class="pin_num_text" x="48.768" y="174.346" transform="rotate(0 48.768 174.346)" style="font-size:12.192" dominant-baseline="" text-anchor="end">7  </text>
+    <text class="pin_name_text" x="48.768" y="174.346" transform="rotate(0 48.768 174.346)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  +VOUT</text>
+    <g s:x="0.000" s:y="174.346" s:pid="7" s:position="left"/>
+    <text class="part_ref_text" x="207.264" y="3.658" transform="rotate(0 207.264 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">U_ISO_H</text>
+    <text class="part_name_text" x="207.264" y="28.042" transform="rotate(0 207.264 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">MGJ2D121505SC</text>
+  </g>
+  <g s:type="MGJ2D121505SC_1_" s:width="302.362" s:height="198.730" transform="translate(3746.6880000000006,629.2540000000001)" id="cell_U_ISO_L">
+    <s:alias val="MGJ2D121505SC_1_"/>
+    <rect x="48.768" y="52.426" width="146.304" height="146.304" style="stroke-width:2.438" class="cell_U_ISO_L symbol background"/>
+    <polyline points="0.000,76.810 48.768,76.810" style="stroke-width:0.960" class="cell_U_ISO_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="" text-anchor="end">1  </text>
+    <text class="pin_name_text" x="48.768" y="76.810" transform="rotate(0 48.768 76.810)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  +VIN</text>
+    <g s:x="0.000" s:y="76.810" s:pid="1" s:position="left"/>
+    <polyline points="0.000,101.194 48.768,101.194" style="stroke-width:0.960" class="cell_U_ISO_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="" text-anchor="end">2  </text>
+    <text class="pin_name_text" x="48.768" y="101.194" transform="rotate(0 48.768 101.194)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  -VIN</text>
+    <g s:x="0.000" s:y="101.194" s:pid="2" s:position="left"/>
+    <polyline points="0.000,125.578 48.768,125.578" style="stroke-width:0.960" class="cell_U_ISO_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="" text-anchor="end">5  </text>
+    <text class="pin_name_text" x="48.768" y="125.578" transform="rotate(0 48.768 125.578)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  -VOUT</text>
+    <g s:x="0.000" s:y="125.578" s:pid="5" s:position="left"/>
+    <polyline points="0.000,149.962 48.768,149.962" style="stroke-width:0.960" class="cell_U_ISO_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="" text-anchor="end">6  </text>
+    <text class="pin_name_text" x="48.768" y="149.962" transform="rotate(0 48.768 149.962)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  0V</text>
+    <g s:x="0.000" s:y="149.962" s:pid="6" s:position="left"/>
+    <polyline points="0.000,174.346 48.768,174.346" style="stroke-width:0.960" class="cell_U_ISO_L symbol none"/>
+    <text class="pin_num_text" x="48.768" y="174.346" transform="rotate(0 48.768 174.346)" style="font-size:12.192" dominant-baseline="" text-anchor="end">7  </text>
+    <text class="pin_name_text" x="48.768" y="174.346" transform="rotate(0 48.768 174.346)" style="font-size:12.192" dominant-baseline="central" text-anchor="start">  +VOUT</text>
+    <g s:x="0.000" s:y="174.346" s:pid="7" s:position="left"/>
+    <text class="part_ref_text" x="207.264" y="3.658" transform="rotate(0 207.264 3.658)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="ref">U_ISO_L</text>
+    <text class="part_name_text" x="207.264" y="28.042" transform="rotate(0 207.264 28.042)" style="font-size:12.192" dominant-baseline="central" text-anchor="start" s:attribute="value">MGJ2D121505SC</text>
+  </g>
+  <line x1="3400.6020000000003" x2="3482.0550000000003" y1="562.912" y2="562.912" class="net_22"/>
+  <line x1="3482.0550000000003" x2="3482.0550000000003" y1="562.912" y2="277.456" class="net_22"/>
+  <line x1="3482.0550000000003" x2="2740.016" y1="277.456" y2="277.456" class="net_22"/>
+  <circle cx="3482.0550000000003" cy="562.912" r="2" style="fill:#000" class="net_22"/>
+  <line x1="2740.016" x2="2740.016" y1="277.456" y2="287.456" class="net_22"/>
+  <line x1="3400.6020000000003" x2="3482.0550000000003" y1="562.912" y2="562.912" class="net_22"/>
+  <circle cx="3482.0550000000003" cy="562.912" r="2" style="fill:#000" class="net_22"/>
+  <line x1="3482.0550000000003" x2="3482.0550000000003" y1="562.912" y2="631.6800000000001" class="net_22"/>
+  <line x1="3400.6020000000003" x2="3482.0550000000003" y1="562.912" y2="562.912" class="net_22"/>
+  <line x1="3482.0550000000003" x2="3482.0550000000003" y1="562.912" y2="277.456" class="net_22"/>
+  <line x1="3482.0550000000003" x2="2809.523" y1="277.456" y2="277.456" class="net_22"/>
+  <circle cx="2809.523" cy="277.456" r="2" style="fill:#000" class="net_22"/>
+  <circle cx="3482.0550000000003" cy="562.912" r="2" style="fill:#000" class="net_22"/>
+  <line x1="2809.523" x2="2809.523" y1="277.456" y2="297.4560000000001" class="net_22"/>
+  <line x1="2790.016" x2="2780.016" y1="587.296" y2="587.296" class="net_22"/>
+  <line x1="2780.016" x2="2780.016" y1="587.296" y2="277.456" class="net_22"/>
+  <line x1="2780.016" x2="2740.016" y1="277.456" y2="277.456" class="net_22"/>
+  <circle cx="2780.016" cy="277.456" r="2" style="fill:#000" class="net_22"/>
+  <circle cx="2780.016" cy="587.296" r="2" style="fill:#000" class="net_22"/>
+  <line x1="2740.016" x2="2740.016" y1="277.456" y2="287.456" class="net_22"/>
+  <line x1="2790.016" x2="2780.016" y1="587.296" y2="587.296" class="net_22"/>
+  <line x1="2780.016" x2="2780.016" y1="587.296" y2="621.6800000000001" class="net_22"/>
+  <line x1="2780.016" x2="3482.0550000000003" y1="621.6800000000001" y2="621.6800000000001" class="net_22"/>
+  <circle cx="3482.0550000000003" cy="621.6800000000001" r="2" style="fill:#000" class="net_22"/>
+  <circle cx="2780.016" cy="587.296" r="2" style="fill:#000" class="net_22"/>
+  <line x1="3482.0550000000003" x2="3482.0550000000003" y1="621.6800000000001" y2="631.6800000000001" class="net_22"/>
+  <line x1="2790.016" x2="2780.016" y1="587.296" y2="587.296" class="net_22"/>
+  <line x1="2780.016" x2="2780.016" y1="587.296" y2="380.60800000000006" class="net_22"/>
+  <line x1="2780.016" x2="2839.03" y1="380.60800000000006" y2="380.60800000000006" class="net_22"/>
+  <line x1="2839.03" x2="2839.03" y1="380.60800000000006" y2="277.456" class="net_22"/>
+  <line x1="2839.03" x2="2809.523" y1="277.456" y2="277.456" class="net_22"/>
+  <circle cx="2839.03" cy="277.456" r="2" style="fill:#000" class="net_22"/>
+  <circle cx="2780.016" cy="380.60800000000006" r="2" style="fill:#000" class="net_22"/>
+  <circle cx="2780.016" cy="587.296" r="2" style="fill:#000" class="net_22"/>
+  <line x1="2809.523" x2="2809.523" y1="277.456" y2="297.4560000000001" class="net_22"/>
+  <line x1="740.954" x2="812.407" y1="552.912" y2="552.912" class="net_14"/>
+  <line x1="812.407" x2="812.407" y1="552.912" y2="277.456" class="net_14"/>
+  <line x1="812.407" x2="782.9" y1="277.456" y2="277.456" class="net_14"/>
+  <circle cx="782.9" cy="277.456" r="2" style="fill:#000" class="net_14"/>
+  <line x1="782.9" x2="782.9" y1="277.456" y2="287.456" class="net_14"/>
+  <line x1="740.954" x2="812.407" y1="552.912" y2="552.912" class="net_14"/>
+  <line x1="812.407" x2="812.407" y1="552.912" y2="277.456" class="net_14"/>
+  <line x1="812.407" x2="205.712" y1="277.456" y2="277.456" class="net_14"/>
+  <circle cx="205.712" cy="277.456" r="2" style="fill:#000" class="net_14"/>
+  <circle cx="812.407" cy="277.456" r="2" style="fill:#000" class="net_14"/>
+  <line x1="205.712" x2="205.712" y1="277.456" y2="287.456" class="net_14"/>
+  <line x1="740.954" x2="812.407" y1="552.912" y2="552.912" class="net_14"/>
+  <line x1="812.407" x2="812.407" y1="552.912" y2="277.456" class="net_14"/>
+  <line x1="812.407" x2="1317.9140000000002" y1="277.456" y2="277.456" class="net_14"/>
+  <circle cx="1317.9140000000002" cy="277.456" r="2" style="fill:#000" class="net_14"/>
+  <line x1="1317.9140000000002" x2="1317.9140000000002" y1="277.456" y2="307.4560000000001" class="net_14"/>
+  <line x1="3746.6880000000006" x2="822.407" y1="803.6000000000001" y2="803.6000000000001" class="net_14"/>
+  <line x1="822.407" x2="822.407" y1="803.6000000000001" y2="700.4480000000001" class="net_14"/>
+  <line x1="822.407" x2="2074.4629999999997" y1="700.4480000000001" y2="700.4480000000001" class="net_14"/>
+  <line x1="2074.4629999999997" x2="2074.4629999999997" y1="700.4480000000001" y2="277.456" class="net_14"/>
+  <line x1="2074.4629999999997" x2="782.9" y1="277.456" y2="277.456" class="net_14"/>
+  <line x1="782.9" x2="782.9" y1="277.456" y2="287.456" class="net_14"/>
+  <line x1="3746.6880000000006" x2="822.407" y1="803.6000000000001" y2="803.6000000000001" class="net_14"/>
+  <line x1="822.407" x2="822.407" y1="803.6000000000001" y2="277.456" class="net_14"/>
+  <line x1="822.407" x2="205.712" y1="277.456" y2="277.456" class="net_14"/>
+  <circle cx="822.407" cy="277.456" r="2" style="fill:#000" class="net_14"/>
+  <line x1="205.712" x2="205.712" y1="277.456" y2="287.456" class="net_14"/>
+  <line x1="3746.6880000000006" x2="822.407" y1="803.6000000000001" y2="803.6000000000001" class="net_14"/>
+  <line x1="822.407" x2="822.407" y1="803.6000000000001" y2="700.4480000000001" class="net_14"/>
+  <line x1="822.407" x2="34.205" y1="700.4480000000001" y2="700.4480000000001" class="net_14"/>
+  <line x1="34.205" x2="34.205" y1="700.4480000000001" y2="277.456" class="net_14"/>
+  <line x1="34.205" x2="1317.9140000000002" y1="277.456" y2="277.456" class="net_14"/>
+  <circle cx="822.407" cy="700.4480000000001" r="2" style="fill:#000" class="net_14"/>
+  <line x1="1317.9140000000002" x2="1317.9140000000002" y1="277.456" y2="307.4560000000001" class="net_14"/>
+  <line x1="2740.016" x2="2740.016" y1="360.608" y2="400.60800000000006" class="net_5"/>
+  <line x1="2740.016" x2="2106.4629999999997" y1="400.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="2106.4629999999997" x2="2106.4629999999997" y1="400.60800000000006" y2="508.14399999999995" class="net_5"/>
+  <circle cx="2740.016" cy="400.60800000000006" r="2" style="fill:#000" class="net_5"/>
+  <circle cx="2106.4629999999997" cy="508.14399999999995" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2106.4629999999997" x2="2126.4629999999997" y1="508.14399999999995" y2="508.14400000000006" class="net_5"/>
+  <line x1="2740.016" x2="2740.016" y1="360.608" y2="400.60800000000006" class="net_5"/>
+  <line x1="2740.016" x2="3432.5480000000002" y1="400.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="3432.5480000000002" x2="3432.5480000000002" y1="400.60800000000006" y2="514.144" class="net_5"/>
+  <circle cx="3432.5480000000002" cy="514.144" r="2" style="fill:#000" class="net_5"/>
+  <line x1="3432.5480000000002" x2="3400.6020000000003" y1="514.144" y2="514.144" class="net_5"/>
+  <line x1="2740.016" x2="2740.016" y1="360.608" y2="562.912" class="net_5"/>
+  <circle cx="2740.016" cy="562.912" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2740.016" x2="2790.016" y1="562.912" y2="562.912" class="net_5"/>
+  <line x1="2809.523" x2="2809.523" y1="370.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="2809.523" x2="2106.4629999999997" y1="400.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="2106.4629999999997" x2="2106.4629999999997" y1="400.60800000000006" y2="508.14399999999995" class="net_5"/>
+  <circle cx="2809.523" cy="400.60800000000006" r="2" style="fill:#000" class="net_5"/>
+  <circle cx="2106.4629999999997" cy="508.14399999999995" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2106.4629999999997" x2="2126.4629999999997" y1="508.14399999999995" y2="508.14400000000006" class="net_5"/>
+  <line x1="2809.523" x2="2809.523" y1="370.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="2809.523" x2="3432.5480000000002" y1="400.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="3432.5480000000002" x2="3432.5480000000002" y1="400.60800000000006" y2="514.144" class="net_5"/>
+  <circle cx="3432.5480000000002" cy="514.144" r="2" style="fill:#000" class="net_5"/>
+  <line x1="3432.5480000000002" x2="3400.6020000000003" y1="514.144" y2="514.144" class="net_5"/>
+  <line x1="2809.523" x2="2809.523" y1="370.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="2809.523" x2="2740.016" y1="400.60800000000006" y2="400.60800000000006" class="net_5"/>
+  <line x1="2740.016" x2="2740.016" y1="400.60800000000006" y2="562.912" class="net_5"/>
+  <circle cx="2740.016" cy="562.912" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2740.016" x2="2790.016" y1="562.912" y2="562.912" class="net_5"/>
+  <line x1="2126.4629999999997" x2="2106.4629999999997" y1="508.14400000000006" y2="508.14399999999995" class="net_5"/>
+  <line x1="2106.4629999999997" x2="2106.4629999999997" y1="508.14399999999995" y2="641.6800000000001" class="net_5"/>
+  <line x1="2106.4629999999997" x2="2779.523" y1="641.6800000000001" y2="641.6800000000001" class="net_5"/>
+  <circle cx="2779.523" cy="641.6800000000001" r="2" style="fill:#000" class="net_5"/>
+  <circle cx="2106.4629999999997" cy="508.14399999999995" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2779.523" x2="2779.523" y1="641.6800000000001" y2="651.6800000000001" class="net_5"/>
+  <line x1="3400.6020000000003" x2="3432.5480000000002" y1="514.144" y2="514.144" class="net_5"/>
+  <line x1="3432.5480000000002" x2="3432.5480000000002" y1="514.144" y2="641.6800000000001" class="net_5"/>
+  <line x1="3432.5480000000002" x2="2779.523" y1="641.6800000000001" y2="641.6800000000001" class="net_5"/>
+  <circle cx="3432.5480000000002" cy="514.144" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2779.523" x2="2779.523" y1="641.6800000000001" y2="651.6800000000001" class="net_5"/>
+  <line x1="2790.016" x2="2740.016" y1="562.912" y2="562.912" class="net_5"/>
+  <line x1="2740.016" x2="2740.016" y1="562.912" y2="641.6800000000001" class="net_5"/>
+  <line x1="2740.016" x2="2779.523" y1="641.6800000000001" y2="641.6800000000001" class="net_5"/>
+  <circle cx="2740.016" cy="641.6800000000001" r="2" style="fill:#000" class="net_5"/>
+  <circle cx="2740.016" cy="562.912" r="2" style="fill:#000" class="net_5"/>
+  <line x1="2779.523" x2="2779.523" y1="641.6800000000001" y2="651.6800000000001" class="net_5"/>
+  <line x1="782.9" x2="782.9" y1="360.608" y2="380.608" class="net_16"/>
+  <line x1="782.9" x2="205.712" y1="380.608" y2="380.608" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="380.608" y2="508.14399999999995" class="net_16"/>
+  <circle cx="205.712" cy="508.14399999999995" r="2" style="fill:#000" class="net_16"/>
+  <line x1="205.712" x2="215.712" y1="508.14399999999995" y2="508.14400000000006" class="net_16"/>
+  <line x1="782.9" x2="782.9" y1="360.608" y2="504.14399999999995" class="net_16"/>
+  <circle cx="782.9" cy="504.14399999999995" r="2" style="fill:#000" class="net_16"/>
+  <line x1="782.9" x2="740.954" y1="504.14399999999995" y2="504.14400000000006" class="net_16"/>
+  <line x1="782.9" x2="782.9" y1="360.608" y2="380.608" class="net_16"/>
+  <line x1="782.9" x2="23.205" y1="380.608" y2="380.608" class="net_16"/>
+  <line x1="23.205" x2="23.205" y1="380.608" y2="779.2160000000001" class="net_16"/>
+  <line x1="23.205" x2="3746.6880000000006" y1="779.2160000000001" y2="779.2160000000001" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="360.608" y2="508.14399999999995" class="net_16"/>
+  <circle cx="205.712" cy="508.14399999999995" r="2" style="fill:#000" class="net_16"/>
+  <line x1="205.712" x2="215.712" y1="508.14399999999995" y2="508.14400000000006" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="360.608" y2="380.608" class="net_16"/>
+  <line x1="205.712" x2="782.9" y1="380.608" y2="380.608" class="net_16"/>
+  <line x1="782.9" x2="782.9" y1="380.608" y2="504.14399999999995" class="net_16"/>
+  <circle cx="205.712" cy="380.608" r="2" style="fill:#000" class="net_16"/>
+  <circle cx="782.9" cy="380.608" r="2" style="fill:#000" class="net_16"/>
+  <circle cx="782.9" cy="504.14399999999995" r="2" style="fill:#000" class="net_16"/>
+  <line x1="782.9" x2="740.954" y1="504.14399999999995" y2="504.14400000000006" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="360.608" y2="380.608" class="net_16"/>
+  <line x1="205.712" x2="23.205" y1="380.608" y2="380.608" class="net_16"/>
+  <line x1="23.205" x2="23.205" y1="380.608" y2="779.2160000000001" class="net_16"/>
+  <line x1="23.205" x2="3746.6880000000006" y1="779.2160000000001" y2="779.2160000000001" class="net_16"/>
+  <line x1="215.712" x2="205.712" y1="508.14400000000006" y2="508.14399999999995" class="net_16"/>
+  <circle cx="205.712" cy="508.14399999999995" r="2" style="fill:#000" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="508.14399999999995" y2="607.296" class="net_16"/>
+  <line x1="740.954" x2="782.9" y1="504.14400000000006" y2="504.14399999999995" class="net_16"/>
+  <line x1="782.9" x2="782.9" y1="504.14399999999995" y2="597.296" class="net_16"/>
+  <line x1="782.9" x2="205.712" y1="597.296" y2="597.296" class="net_16"/>
+  <circle cx="782.9" cy="504.14399999999995" r="2" style="fill:#000" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="597.296" y2="607.296" class="net_16"/>
+  <line x1="3746.6880000000006" x2="23.205" y1="779.2160000000001" y2="779.2160000000001" class="net_16"/>
+  <line x1="23.205" x2="23.205" y1="779.2160000000001" y2="597.296" class="net_16"/>
+  <line x1="23.205" x2="205.712" y1="597.296" y2="597.296" class="net_16"/>
+  <circle cx="205.712" cy="597.296" r="2" style="fill:#000" class="net_16"/>
+  <circle cx="23.205" cy="597.296" r="2" style="fill:#000" class="net_16"/>
+  <line x1="205.712" x2="205.712" y1="597.296" y2="607.296" class="net_16"/>
+  <line x1="3132.378" x2="3122.378" y1="489.76000000000005" y2="489.75999999999993" class="net_8"/>
+  <line x1="3122.378" x2="3122.378" y1="489.75999999999993" y2="267.456" class="net_8"/>
+  <line x1="3122.378" x2="2577.002" y1="267.456" y2="267.456" class="net_8"/>
+  <circle cx="2577.002" cy="267.456" r="2" style="fill:#000" class="net_8"/>
+  <line x1="2577.002" x2="2577.002" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3132.378" x2="3122.378" y1="489.76000000000005" y2="489.75999999999993" class="net_8"/>
+  <line x1="3122.378" x2="3122.378" y1="489.75999999999993" y2="267.456" class="net_8"/>
+  <line x1="3122.378" x2="2487.988" y1="267.456" y2="267.456" class="net_8"/>
+  <circle cx="2487.988" cy="267.456" r="2" style="fill:#000" class="net_8"/>
+  <line x1="2487.988" x2="2487.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3132.378" x2="3122.378" y1="489.76000000000005" y2="489.75999999999993" class="net_8"/>
+  <line x1="3122.378" x2="3122.378" y1="489.75999999999993" y2="267.456" class="net_8"/>
+  <line x1="3122.378" x2="2666.016" y1="267.456" y2="267.456" class="net_8"/>
+  <circle cx="2666.016" cy="267.456" r="2" style="fill:#000" class="net_8"/>
+  <line x1="2666.016" x2="2666.016" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3132.378" x2="3122.378" y1="489.76000000000005" y2="489.75999999999993" class="net_8"/>
+  <line x1="3122.378" x2="3122.378" y1="489.75999999999993" y2="267.456" class="net_8"/>
+  <line x1="3122.378" x2="2383.988" y1="267.456" y2="267.456" class="net_8"/>
+  <circle cx="2383.988" cy="267.456" r="2" style="fill:#000" class="net_8"/>
+  <circle cx="3122.378" cy="267.456" r="2" style="fill:#000" class="net_8"/>
+  <line x1="2383.988" x2="2383.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="472.73" x2="442.73" y1="479.76000000000005" y2="479.75999999999993" class="net_8"/>
+  <line x1="442.73" x2="442.73" y1="479.75999999999993" y2="390.608" class="net_8"/>
+  <line x1="442.73" x2="67.205" y1="390.608" y2="390.608" class="net_8"/>
+  <line x1="67.205" x2="67.205" y1="390.608" y2="267.456" class="net_8"/>
+  <line x1="67.205" x2="2577.002" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2577.002" x2="2577.002" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="472.73" x2="442.73" y1="479.76000000000005" y2="479.75999999999993" class="net_8"/>
+  <line x1="442.73" x2="442.73" y1="479.75999999999993" y2="390.608" class="net_8"/>
+  <line x1="442.73" x2="67.205" y1="390.608" y2="390.608" class="net_8"/>
+  <line x1="67.205" x2="67.205" y1="390.608" y2="267.456" class="net_8"/>
+  <line x1="67.205" x2="2487.988" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2487.988" x2="2487.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="472.73" x2="442.73" y1="479.76000000000005" y2="479.75999999999993" class="net_8"/>
+  <line x1="442.73" x2="442.73" y1="479.75999999999993" y2="390.608" class="net_8"/>
+  <line x1="442.73" x2="67.205" y1="390.608" y2="390.608" class="net_8"/>
+  <line x1="67.205" x2="67.205" y1="390.608" y2="267.456" class="net_8"/>
+  <line x1="67.205" x2="2666.016" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2666.016" x2="2666.016" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="472.73" x2="442.73" y1="479.76000000000005" y2="479.75999999999993" class="net_8"/>
+  <line x1="442.73" x2="442.73" y1="479.75999999999993" y2="390.608" class="net_8"/>
+  <line x1="442.73" x2="67.205" y1="390.608" y2="390.608" class="net_8"/>
+  <line x1="67.205" x2="67.205" y1="390.608" y2="267.456" class="net_8"/>
+  <line x1="67.205" x2="2383.988" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2383.988" x2="2383.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="2790.016" x2="2770.016" y1="489.76000000000005" y2="489.76000000000005" class="net_8"/>
+  <line x1="2770.016" x2="2770.016" y1="489.76000000000005" y2="370.608" class="net_8"/>
+  <line x1="2770.016" x2="2710.509" y1="370.608" y2="370.608" class="net_8"/>
+  <line x1="2710.509" x2="2710.509" y1="370.608" y2="267.456" class="net_8"/>
+  <line x1="2710.509" x2="2577.002" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2577.002" x2="2577.002" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="2790.016" x2="2770.016" y1="489.76000000000005" y2="489.76000000000005" class="net_8"/>
+  <line x1="2770.016" x2="2770.016" y1="489.76000000000005" y2="370.608" class="net_8"/>
+  <line x1="2770.016" x2="2710.509" y1="370.608" y2="370.608" class="net_8"/>
+  <line x1="2710.509" x2="2710.509" y1="370.608" y2="267.456" class="net_8"/>
+  <line x1="2710.509" x2="2487.988" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2487.988" x2="2487.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="2790.016" x2="2770.016" y1="489.76000000000005" y2="489.76000000000005" class="net_8"/>
+  <line x1="2770.016" x2="2770.016" y1="489.76000000000005" y2="370.608" class="net_8"/>
+  <line x1="2770.016" x2="2710.509" y1="370.608" y2="370.608" class="net_8"/>
+  <line x1="2710.509" x2="2710.509" y1="370.608" y2="267.456" class="net_8"/>
+  <line x1="2710.509" x2="2666.016" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2666.016" x2="2666.016" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="2790.016" x2="2770.016" y1="489.76000000000005" y2="489.76000000000005" class="net_8"/>
+  <line x1="2770.016" x2="2770.016" y1="489.76000000000005" y2="370.608" class="net_8"/>
+  <line x1="2770.016" x2="2710.509" y1="370.608" y2="370.608" class="net_8"/>
+  <line x1="2710.509" x2="2710.509" y1="370.608" y2="267.456" class="net_8"/>
+  <line x1="2710.509" x2="2383.988" y1="267.456" y2="267.456" class="net_8"/>
+  <circle cx="2710.509" cy="267.456" r="2" style="fill:#000" class="net_8"/>
+  <line x1="2383.988" x2="2383.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3746.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="706.0640000000001" class="net_8"/>
+  <line x1="3736.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="267.456" class="net_8"/>
+  <line x1="3736.6880000000006" x2="2577.002" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2577.002" x2="2577.002" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3746.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="706.0640000000001" class="net_8"/>
+  <line x1="3736.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="267.456" class="net_8"/>
+  <line x1="3736.6880000000006" x2="2487.988" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2487.988" x2="2487.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3746.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="706.0640000000001" class="net_8"/>
+  <line x1="3736.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="267.456" class="net_8"/>
+  <line x1="3736.6880000000006" x2="2666.016" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2666.016" x2="2666.016" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="3746.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="706.0640000000001" class="net_8"/>
+  <line x1="3736.6880000000006" x2="3736.6880000000006" y1="706.0640000000001" y2="267.456" class="net_8"/>
+  <line x1="3736.6880000000006" x2="2383.988" y1="267.456" y2="267.456" class="net_8"/>
+  <line x1="2383.988" x2="2383.988" y1="267.456" y2="307.4560000000001" class="net_8"/>
+  <line x1="593.952" x2="593.952" y1="213.072" y2="247.45600000000002" class="net_3"/>
+  <line x1="593.952" x2="1495.942" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1495.942" x2="1495.942" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="593.952" y1="213.072" y2="247.45600000000002" class="net_3"/>
+  <line x1="593.952" x2="1406.928" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1406.928" x2="1406.928" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="593.952" y1="213.072" y2="247.45600000000002" class="net_3"/>
+  <line x1="593.952" x2="1584.956" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1584.956" x2="1584.956" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="593.952" y1="188.68800000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="593.952" x2="1495.942" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <circle cx="1495.942" cy="247.45600000000002" r="2" style="fill:#000" class="net_3"/>
+  <line x1="1495.942" x2="1495.942" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="593.952" y1="188.68800000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="593.952" x2="1406.928" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <circle cx="1406.928" cy="247.45600000000002" r="2" style="fill:#000" class="net_3"/>
+  <line x1="1406.928" x2="1406.928" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="593.952" y1="188.68800000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="593.952" x2="1584.956" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1584.956" x2="1584.956" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="669.789" y1="164.304" y2="164.304" class="net_3"/>
+  <line x1="669.789" x2="669.789" y1="164.304" y2="247.45600000000002" class="net_3"/>
+  <line x1="669.789" x2="1495.942" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <circle cx="669.789" cy="247.45600000000002" r="2" style="fill:#000" class="net_3"/>
+  <line x1="1495.942" x2="1495.942" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="669.789" y1="164.304" y2="164.304" class="net_3"/>
+  <line x1="669.789" x2="669.789" y1="164.304" y2="247.45600000000002" class="net_3"/>
+  <line x1="669.789" x2="1406.928" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1406.928" x2="1406.928" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="669.789" y1="164.304" y2="164.304" class="net_3"/>
+  <line x1="669.789" x2="669.789" y1="164.304" y2="247.45600000000002" class="net_3"/>
+  <line x1="669.789" x2="1584.956" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1584.956" x2="1584.956" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="679.789" y1="139.92000000000002" y2="139.92" class="net_3"/>
+  <line x1="679.789" x2="679.789" y1="139.92" y2="247.45600000000002" class="net_3"/>
+  <line x1="679.789" x2="1495.942" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <circle cx="679.789" cy="247.45600000000002" r="2" style="fill:#000" class="net_3"/>
+  <line x1="1495.942" x2="1495.942" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="679.789" y1="139.92000000000002" y2="139.92" class="net_3"/>
+  <line x1="679.789" x2="679.789" y1="139.92" y2="247.45600000000002" class="net_3"/>
+  <line x1="679.789" x2="1406.928" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1406.928" x2="1406.928" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="679.789" y1="139.92000000000002" y2="139.92" class="net_3"/>
+  <line x1="679.789" x2="679.789" y1="139.92" y2="247.45600000000002" class="net_3"/>
+  <line x1="679.789" x2="1584.956" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1584.956" x2="1584.956" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="689.789" y1="115.536" y2="115.536" class="net_3"/>
+  <line x1="689.789" x2="689.789" y1="115.536" y2="247.45600000000002" class="net_3"/>
+  <line x1="689.789" x2="1495.942" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <circle cx="689.789" cy="247.45600000000002" r="2" style="fill:#000" class="net_3"/>
+  <line x1="1495.942" x2="1495.942" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="689.789" y1="115.536" y2="115.536" class="net_3"/>
+  <line x1="689.789" x2="689.789" y1="115.536" y2="247.45600000000002" class="net_3"/>
+  <line x1="689.789" x2="1406.928" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1406.928" x2="1406.928" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="689.789" y1="115.536" y2="115.536" class="net_3"/>
+  <line x1="689.789" x2="689.789" y1="115.536" y2="247.45600000000002" class="net_3"/>
+  <line x1="689.789" x2="1584.956" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1584.956" x2="1584.956" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="699.789" y1="91.152" y2="91.15200000000002" class="net_3"/>
+  <line x1="699.789" x2="699.789" y1="91.15200000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="699.789" x2="1495.942" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <circle cx="699.789" cy="247.45600000000002" r="2" style="fill:#000" class="net_3"/>
+  <line x1="1495.942" x2="1495.942" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="699.789" y1="91.152" y2="91.15200000000002" class="net_3"/>
+  <line x1="699.789" x2="699.789" y1="91.15200000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="699.789" x2="1406.928" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1406.928" x2="1406.928" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="593.952" x2="699.789" y1="91.152" y2="91.15200000000002" class="net_3"/>
+  <line x1="699.789" x2="699.789" y1="91.15200000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="699.789" x2="1584.956" y1="247.45600000000002" y2="247.45600000000002" class="net_3"/>
+  <line x1="1584.956" x2="1584.956" y1="247.45600000000002" y2="297.456" class="net_3"/>
+  <line x1="851.914" x2="1673.9699999999998" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1673.9699999999998" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="1219.9140000000002" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1219.9140000000002" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1219.9140000000002" x2="1219.9140000000002" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="1035.914" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1035.914" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1035.914" x2="1035.914" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="1127.9140000000002" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1127.9140000000002" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1127.9140000000002" x2="1127.9140000000002" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="1765.9699999999998" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1765.9699999999998" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1765.9699999999998" x2="1765.9699999999998" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="2041.9699999999998" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="2041.9699999999998" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="2041.9699999999998" x2="2041.9699999999998" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="1949.9699999999998" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1949.9699999999998" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1949.9699999999998" x2="1949.9699999999998" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="1857.9699999999998" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="1857.9699999999998" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="1857.9699999999998" x2="1857.9699999999998" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="851.914" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="943.914" y1="287.456" y2="287.456" class="net_10"/>
+  <circle cx="943.914" cy="287.456" r="2" style="fill:#000" class="net_10"/>
+  <line x1="943.914" x2="943.914" y1="287.456" y2="297.456" class="net_10"/>
+  <line x1="851.914" x2="2223.999" y1="287.456" y2="287.456" class="net_10"/>
+  <line x1="2223.999" x2="2223.999" y1="287.456" y2="410.60800000000006" class="net_10"/>
+  <line x1="374.49600000000004" x2="314.49600000000004" y1="91.152" y2="91.15200000000002" class="net_18"/>
+  <line x1="314.49600000000004" x2="314.49600000000004" y1="91.15200000000002" y2="257.456" class="net_18"/>
+  <line x1="314.49600000000004" x2="2096.4629999999997" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2096.4629999999997" y1="257.456" y2="566.912" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2223.999" y1="566.912" y2="566.912" class="net_18"/>
+  <circle cx="314.49600000000004" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <circle cx="2096.4629999999997" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <circle cx="2223.999" cy="566.912" r="2" style="fill:#000" class="net_18"/>
+  <line x1="2223.999" x2="2223.999" y1="566.912" y2="556.912" class="net_18"/>
+  <line x1="374.49600000000004" x2="314.49600000000004" y1="91.152" y2="91.15200000000002" class="net_18"/>
+  <line x1="314.49600000000004" x2="314.49600000000004" y1="91.15200000000002" y2="257.456" class="net_18"/>
+  <line x1="314.49600000000004" x2="56.205" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="56.205" x2="56.205" y1="257.456" y2="400.608" class="net_18"/>
+  <line x1="56.205" x2="313.248" y1="400.608" y2="400.608" class="net_18"/>
+  <line x1="313.248" x2="313.248" y1="400.608" y2="410.60800000000006" class="net_18"/>
+  <line x1="374.49600000000004" x2="354.49600000000004" y1="115.536" y2="115.536" class="net_18"/>
+  <line x1="354.49600000000004" x2="354.49600000000004" y1="115.536" y2="257.456" class="net_18"/>
+  <line x1="354.49600000000004" x2="2353.4809999999998" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="2353.4809999999998" x2="2353.4809999999998" y1="257.456" y2="566.912" class="net_18"/>
+  <line x1="2353.4809999999998" x2="2223.999" y1="566.912" y2="566.912" class="net_18"/>
+  <circle cx="354.49600000000004" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <line x1="2223.999" x2="2223.999" y1="566.912" y2="556.912" class="net_18"/>
+  <line x1="374.49600000000004" x2="354.49600000000004" y1="115.536" y2="115.536" class="net_18"/>
+  <line x1="354.49600000000004" x2="354.49600000000004" y1="115.536" y2="257.456" class="net_18"/>
+  <line x1="354.49600000000004" x2="56.205" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="56.205" x2="56.205" y1="257.456" y2="400.608" class="net_18"/>
+  <line x1="56.205" x2="313.248" y1="400.608" y2="400.608" class="net_18"/>
+  <line x1="313.248" x2="313.248" y1="400.608" y2="410.60800000000006" class="net_18"/>
+  <line x1="374.49600000000004" x2="364.49600000000004" y1="139.92000000000002" y2="139.92" class="net_18"/>
+  <line x1="364.49600000000004" x2="364.49600000000004" y1="139.92" y2="257.456" class="net_18"/>
+  <line x1="364.49600000000004" x2="2353.4809999999998" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="2353.4809999999998" x2="2353.4809999999998" y1="257.456" y2="566.912" class="net_18"/>
+  <line x1="2353.4809999999998" x2="2223.999" y1="566.912" y2="566.912" class="net_18"/>
+  <circle cx="364.49600000000004" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <line x1="2223.999" x2="2223.999" y1="566.912" y2="556.912" class="net_18"/>
+  <line x1="374.49600000000004" x2="364.49600000000004" y1="139.92000000000002" y2="139.92" class="net_18"/>
+  <line x1="364.49600000000004" x2="364.49600000000004" y1="139.92" y2="257.456" class="net_18"/>
+  <line x1="364.49600000000004" x2="56.205" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="56.205" x2="56.205" y1="257.456" y2="400.608" class="net_18"/>
+  <line x1="56.205" x2="313.248" y1="400.608" y2="400.608" class="net_18"/>
+  <line x1="313.248" x2="313.248" y1="400.608" y2="410.60800000000006" class="net_18"/>
+  <line x1="374.49600000000004" x2="324.49600000000004" y1="164.304" y2="164.304" class="net_18"/>
+  <line x1="324.49600000000004" x2="324.49600000000004" y1="164.304" y2="257.456" class="net_18"/>
+  <line x1="324.49600000000004" x2="2096.4629999999997" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2096.4629999999997" y1="257.456" y2="566.912" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2223.999" y1="566.912" y2="566.912" class="net_18"/>
+  <circle cx="324.49600000000004" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <line x1="2223.999" x2="2223.999" y1="566.912" y2="556.912" class="net_18"/>
+  <line x1="374.49600000000004" x2="324.49600000000004" y1="164.304" y2="164.304" class="net_18"/>
+  <line x1="324.49600000000004" x2="324.49600000000004" y1="164.304" y2="257.456" class="net_18"/>
+  <line x1="324.49600000000004" x2="56.205" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="56.205" x2="56.205" y1="257.456" y2="400.608" class="net_18"/>
+  <line x1="56.205" x2="313.248" y1="400.608" y2="400.608" class="net_18"/>
+  <line x1="313.248" x2="313.248" y1="400.608" y2="410.60800000000006" class="net_18"/>
+  <line x1="374.49600000000004" x2="344.49600000000004" y1="188.68800000000002" y2="188.68800000000002" class="net_18"/>
+  <line x1="344.49600000000004" x2="344.49600000000004" y1="188.68800000000002" y2="257.456" class="net_18"/>
+  <line x1="344.49600000000004" x2="2096.4629999999997" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2096.4629999999997" y1="257.456" y2="566.912" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2223.999" y1="566.912" y2="566.912" class="net_18"/>
+  <circle cx="344.49600000000004" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <line x1="2223.999" x2="2223.999" y1="566.912" y2="556.912" class="net_18"/>
+  <line x1="374.49600000000004" x2="344.49600000000004" y1="188.68800000000002" y2="188.68800000000002" class="net_18"/>
+  <line x1="344.49600000000004" x2="344.49600000000004" y1="188.68800000000002" y2="257.456" class="net_18"/>
+  <line x1="344.49600000000004" x2="56.205" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="56.205" x2="56.205" y1="257.456" y2="400.608" class="net_18"/>
+  <line x1="56.205" x2="313.248" y1="400.608" y2="400.608" class="net_18"/>
+  <line x1="313.248" x2="313.248" y1="400.608" y2="410.60800000000006" class="net_18"/>
+  <line x1="374.49600000000004" x2="334.49600000000004" y1="213.072" y2="213.07199999999997" class="net_18"/>
+  <line x1="334.49600000000004" x2="334.49600000000004" y1="213.07199999999997" y2="257.456" class="net_18"/>
+  <line x1="334.49600000000004" x2="2096.4629999999997" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2096.4629999999997" y1="257.456" y2="566.912" class="net_18"/>
+  <line x1="2096.4629999999997" x2="2223.999" y1="566.912" y2="566.912" class="net_18"/>
+  <circle cx="334.49600000000004" cy="257.456" r="2" style="fill:#000" class="net_18"/>
+  <line x1="2223.999" x2="2223.999" y1="566.912" y2="556.912" class="net_18"/>
+  <line x1="374.49600000000004" x2="334.49600000000004" y1="213.072" y2="213.07199999999997" class="net_18"/>
+  <line x1="334.49600000000004" x2="334.49600000000004" y1="213.07199999999997" y2="257.456" class="net_18"/>
+  <line x1="334.49600000000004" x2="56.205" y1="257.456" y2="257.456" class="net_18"/>
+  <line x1="56.205" x2="56.205" y1="257.456" y2="400.608" class="net_18"/>
+  <line x1="56.205" x2="313.248" y1="400.608" y2="400.608" class="net_18"/>
+  <line x1="313.248" x2="313.248" y1="400.608" y2="410.60800000000006" class="net_18"/>
+  <line x1="1495.942" x2="1495.942" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1495.942" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1495.942" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1406.928" x2="1406.928" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1406.928" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1673.9699999999998" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1584.956" x2="1584.956" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1584.956" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1584.956" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="370.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1219.9140000000002" x2="1219.9140000000002" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1219.9140000000002" x2="1035.914" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1035.914" x2="1035.914" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1035.914" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1035.914" x2="1035.914" y1="370.608" y2="587.296" class="net_4"/>
+  <line x1="1035.914" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1127.9140000000002" x2="1127.9140000000002" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1127.9140000000002" x2="1035.914" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1035.914" x2="1035.914" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1035.914" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1127.9140000000002" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1765.9699999999998" x2="1765.9699999999998" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1765.9699999999998" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1765.9699999999998" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="2041.9699999999998" x2="2041.9699999999998" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="2041.9699999999998" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1949.9699999999998" x2="1949.9699999999998" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1949.9699999999998" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1949.9699999999998" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="1857.9699999999998" x2="1857.9699999999998" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="1857.9699999999998" x2="1673.9699999999998" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1673.9699999999998" x2="1673.9699999999998" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1673.9699999999998" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1857.9699999999998" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="851.914" x2="851.914" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="851.914" x2="1035.914" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1035.914" x2="1035.914" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1035.914" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="1035.914" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <circle cx="1035.914" cy="587.296" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="943.914" x2="943.914" y1="370.608" y2="380.608" class="net_4"/>
+  <line x1="943.914" x2="1035.914" y1="380.608" y2="380.608" class="net_4"/>
+  <line x1="1035.914" x2="1035.914" y1="380.608" y2="587.296" class="net_4"/>
+  <line x1="1035.914" x2="313.248" y1="587.296" y2="587.296" class="net_4"/>
+  <circle cx="943.914" cy="380.608" r="2" style="fill:#000" class="net_4"/>
+  <line x1="313.248" x2="313.248" y1="587.296" y2="556.912" class="net_4"/>
+  <line x1="3532.5620000000004" x2="3522.5620000000004" y1="235.26400000000004" y2="235.26400000000004" class="net_7"/>
+  <line x1="3522.5620000000004" x2="3522.5620000000004" y1="235.26400000000004" y2="307.4560000000001" class="net_7"/>
+  <line x1="121.36999999999998" x2="111.36999999999998" y1="225.26400000000004" y2="225.26400000000004" class="net_1"/>
+  <line x1="111.36999999999998" x2="111.36999999999998" y1="225.26400000000004" y2="287.456" class="net_1"/>
+  <line x1="3522.5620000000004" x2="3522.5620000000004" y1="380.60800000000006" y2="538.528" class="net_13"/>
+  <line x1="3522.5620000000004" x2="3400.6020000000003" y1="538.528" y2="538.528" class="net_13"/>
+  <line x1="3400.6020000000003" x2="3522.5620000000004" y1="538.528" y2="538.528" class="net_13"/>
+  <line x1="3522.5620000000004" x2="3522.5620000000004" y1="538.528" y2="538.528" class="net_13"/>
+  <line x1="3522.5620000000004" x2="3725.6880000000006" y1="538.528" y2="538.528" class="net_13"/>
+  <line x1="3725.6880000000006" x2="3725.6880000000006" y1="538.528" y2="52.96000000000002" class="net_13"/>
+  <line x1="3725.6880000000006" x2="2116.4629999999997" y1="52.96000000000002" y2="52.96000000000002" class="net_13"/>
+  <circle cx="3522.5620000000004" cy="538.528" r="2" style="fill:#000" class="net_13"/>
+  <line x1="2116.4629999999997" x2="2116.4629999999997" y1="52.96000000000002" y2="62.96000000000002" class="net_13"/>
+  <line x1="111.36999999999998" x2="111.36999999999998" y1="360.608" y2="370.608" class="net_15"/>
+  <line x1="111.36999999999998" x2="772.9" y1="370.608" y2="370.608" class="net_15"/>
+  <line x1="772.9" x2="772.9" y1="370.608" y2="528.528" class="net_15"/>
+  <circle cx="111.36999999999998" cy="370.608" r="2" style="fill:#000" class="net_15"/>
+  <line x1="772.9" x2="740.954" y1="528.528" y2="528.528" class="net_15"/>
+  <line x1="740.954" x2="772.9" y1="528.528" y2="528.528" class="net_15"/>
+  <line x1="772.9" x2="772.9" y1="528.528" y2="370.608" class="net_15"/>
+  <line x1="772.9" x2="77.20499999999998" y1="370.608" y2="370.608" class="net_15"/>
+  <line x1="77.20499999999998" x2="77.20499999999998" y1="370.608" y2="247.45600000000002" class="net_15"/>
+  <line x1="77.20499999999998" x2="12.04" y1="247.45600000000002" y2="247.45600000000002" class="net_15"/>
+  <line x1="12.04" x2="12.04" y1="247.45600000000002" y2="42.96000000000002" class="net_15"/>
+  <line x1="12.04" x2="45.205" y1="42.96000000000002" y2="42.96000000000002" class="net_15"/>
+  <line x1="45.205" x2="45.205" y1="42.96000000000002" y2="52.96000000000002" class="net_15"/>
+  <line x1="2779.523" x2="2779.523" y1="724.8320000000001" y2="734.8320000000001" class="net_6"/>
+  <line x1="2779.523" x2="3442.5480000000002" y1="734.8320000000001" y2="734.8320000000001" class="net_6"/>
+  <line x1="3442.5480000000002" x2="3442.5480000000002" y1="734.8320000000001" y2="489.75999999999993" class="net_6"/>
+  <line x1="3442.5480000000002" x2="3400.6020000000003" y1="489.75999999999993" y2="489.76000000000005" class="net_6"/>
+  <line x1="2779.523" x2="2779.523" y1="724.8320000000001" y2="734.8320000000001" class="net_6"/>
+  <line x1="2779.523" x2="3442.5480000000002" y1="734.8320000000001" y2="734.8320000000001" class="net_6"/>
+  <line x1="3442.5480000000002" x2="3442.5480000000002" y1="734.8320000000001" y2="631.6800000000001" class="net_6"/>
+  <line x1="3442.5480000000002" x2="2750.016" y1="631.6800000000001" y2="631.6800000000001" class="net_6"/>
+  <line x1="2750.016" x2="2750.016" y1="631.6800000000001" y2="538.528" class="net_6"/>
+  <circle cx="2750.016" cy="631.6800000000001" r="2" style="fill:#000" class="net_6"/>
+  <circle cx="3442.5480000000002" cy="631.6800000000001" r="2" style="fill:#000" class="net_6"/>
+  <line x1="2750.016" x2="2790.016" y1="538.528" y2="538.528" class="net_6"/>
+  <line x1="3482.0550000000003" x2="3482.0550000000003" y1="704.8320000000001" y2="744.8320000000001" class="net_6"/>
+  <line x1="3482.0550000000003" x2="3452.5480000000002" y1="744.8320000000001" y2="744.8320000000001" class="net_6"/>
+  <line x1="3452.5480000000002" x2="3452.5480000000002" y1="744.8320000000001" y2="631.6800000000001" class="net_6"/>
+  <line x1="3452.5480000000002" x2="3442.5480000000002" y1="631.6800000000001" y2="631.6800000000001" class="net_6"/>
+  <line x1="3442.5480000000002" x2="3442.5480000000002" y1="631.6800000000001" y2="489.75999999999993" class="net_6"/>
+  <circle cx="3452.5480000000002" cy="744.8320000000001" r="2" style="fill:#000" class="net_6"/>
+  <line x1="3442.5480000000002" x2="3400.6020000000003" y1="489.75999999999993" y2="489.76000000000005" class="net_6"/>
+  <line x1="3482.0550000000003" x2="3482.0550000000003" y1="704.8320000000001" y2="744.8320000000001" class="net_6"/>
+  <line x1="3482.0550000000003" x2="2750.016" y1="744.8320000000001" y2="744.8320000000001" class="net_6"/>
+  <line x1="2750.016" x2="2750.016" y1="744.8320000000001" y2="538.528" class="net_6"/>
+  <line x1="2750.016" x2="2790.016" y1="538.528" y2="538.528" class="net_6"/>
+  <line x1="205.712" x2="205.712" y1="680.4480000000001" y2="690.4480000000001" class="net_21"/>
+  <line x1="205.712" x2="1317.9140000000002" y1="690.4480000000001" y2="690.4480000000001" class="net_21"/>
+  <line x1="1317.9140000000002" x2="1317.9140000000002" y1="690.4480000000001" y2="479.75999999999993" class="net_21"/>
+  <circle cx="1317.9140000000002" cy="690.4480000000001" r="2" style="fill:#000" class="net_21"/>
+  <circle cx="1317.9140000000002" cy="479.75999999999993" r="2" style="fill:#000" class="net_21"/>
+  <line x1="1317.9140000000002" x2="740.954" y1="479.75999999999993" y2="479.76000000000005" class="net_21"/>
+  <line x1="205.712" x2="205.712" y1="680.4480000000001" y2="690.4480000000001" class="net_21"/>
+  <line x1="205.712" x2="2085.4629999999997" y1="690.4480000000001" y2="690.4480000000001" class="net_21"/>
+  <line x1="2085.4629999999997" x2="2085.4629999999997" y1="690.4480000000001" y2="754.8320000000001" class="net_21"/>
+  <circle cx="2085.4629999999997" cy="690.4480000000001" r="2" style="fill:#000" class="net_21"/>
+  <line x1="2085.4629999999997" x2="3746.6880000000006" y1="754.8320000000001" y2="754.8320000000001" class="net_21"/>
+  <line x1="1317.9140000000002" x2="1317.9140000000002" y1="380.60800000000006" y2="479.75999999999993" class="net_21"/>
+  <circle cx="1317.9140000000002" cy="479.75999999999993" r="2" style="fill:#000" class="net_21"/>
+  <line x1="1317.9140000000002" x2="740.954" y1="479.75999999999993" y2="479.76000000000005" class="net_21"/>
+  <line x1="1317.9140000000002" x2="1317.9140000000002" y1="380.60800000000006" y2="469.75999999999993" class="net_21"/>
+  <line x1="1317.9140000000002" x2="2085.4629999999997" y1="469.75999999999993" y2="469.75999999999993" class="net_21"/>
+  <line x1="2085.4629999999997" x2="2085.4629999999997" y1="469.75999999999993" y2="754.8320000000001" class="net_21"/>
+  <circle cx="1317.9140000000002" cy="469.75999999999993" r="2" style="fill:#000" class="net_21"/>
+  <line x1="2085.4629999999997" x2="3746.6880000000006" y1="754.8320000000001" y2="754.8320000000001" class="net_21"/>
+  <line x1="2577.002" x2="2577.002" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2577.002" x2="3112.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3112.378" x2="3112.378" y1="390.60800000000006" y2="538.528" class="net_17"/>
+  <circle cx="2577.002" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="3112.378" x2="3132.378" y1="538.528" y2="538.528" class="net_17"/>
+  <line x1="2577.002" x2="2577.002" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2577.002" x2="3102.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3102.378" x2="3102.378" y1="390.60800000000006" y2="562.912" class="net_17"/>
+  <line x1="3102.378" x2="3132.378" y1="562.912" y2="562.912" class="net_17"/>
+  <line x1="2577.002" x2="2577.002" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2577.002" x2="462.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="462.73" x2="462.73" y1="390.60800000000006" y2="528.528" class="net_17"/>
+  <line x1="462.73" x2="472.73" y1="528.528" y2="528.528" class="net_17"/>
+  <line x1="2577.002" x2="2577.002" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2577.002" x2="452.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="452.73" x2="452.73" y1="390.60800000000006" y2="552.912" class="net_17"/>
+  <line x1="452.73" x2="472.73" y1="552.912" y2="552.912" class="net_17"/>
+  <line x1="2577.002" x2="2577.002" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2577.002" x2="2760.016" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2760.016" x2="2760.016" y1="390.60800000000006" y2="514.144" class="net_17"/>
+  <line x1="2760.016" x2="2790.016" y1="514.144" y2="514.144" class="net_17"/>
+  <line x1="2577.002" x2="2577.002" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2577.002" x2="3511.5620000000004" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3511.5620000000004" y1="390.60800000000006" y2="730.4480000000001" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3746.6880000000006" y1="730.4480000000001" y2="730.4480000000001" class="net_17"/>
+  <line x1="2487.988" x2="2487.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2487.988" x2="3112.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3112.378" x2="3112.378" y1="390.60800000000006" y2="538.528" class="net_17"/>
+  <circle cx="2487.988" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="3112.378" x2="3132.378" y1="538.528" y2="538.528" class="net_17"/>
+  <line x1="2487.988" x2="2487.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2487.988" x2="3102.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3102.378" x2="3102.378" y1="390.60800000000006" y2="562.912" class="net_17"/>
+  <line x1="3102.378" x2="3132.378" y1="562.912" y2="562.912" class="net_17"/>
+  <line x1="2487.988" x2="2487.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2487.988" x2="462.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="462.73" x2="462.73" y1="390.60800000000006" y2="528.528" class="net_17"/>
+  <line x1="462.73" x2="472.73" y1="528.528" y2="528.528" class="net_17"/>
+  <line x1="2487.988" x2="2487.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2487.988" x2="452.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="452.73" x2="452.73" y1="390.60800000000006" y2="552.912" class="net_17"/>
+  <line x1="452.73" x2="472.73" y1="552.912" y2="552.912" class="net_17"/>
+  <line x1="2487.988" x2="2487.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2487.988" x2="2760.016" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2760.016" x2="2760.016" y1="390.60800000000006" y2="514.144" class="net_17"/>
+  <line x1="2760.016" x2="2790.016" y1="514.144" y2="514.144" class="net_17"/>
+  <line x1="2487.988" x2="2487.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2487.988" x2="3511.5620000000004" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3511.5620000000004" y1="390.60800000000006" y2="730.4480000000001" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3746.6880000000006" y1="730.4480000000001" y2="730.4480000000001" class="net_17"/>
+  <line x1="2666.016" x2="2666.016" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2666.016" x2="3112.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3112.378" x2="3112.378" y1="390.60800000000006" y2="538.528" class="net_17"/>
+  <circle cx="2666.016" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="3112.378" x2="3132.378" y1="538.528" y2="538.528" class="net_17"/>
+  <line x1="2666.016" x2="2666.016" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2666.016" x2="3102.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3102.378" x2="3102.378" y1="390.60800000000006" y2="562.912" class="net_17"/>
+  <line x1="3102.378" x2="3132.378" y1="562.912" y2="562.912" class="net_17"/>
+  <line x1="2666.016" x2="2666.016" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2666.016" x2="462.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="462.73" x2="462.73" y1="390.60800000000006" y2="528.528" class="net_17"/>
+  <line x1="462.73" x2="472.73" y1="528.528" y2="528.528" class="net_17"/>
+  <line x1="2666.016" x2="2666.016" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2666.016" x2="452.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="452.73" x2="452.73" y1="390.60800000000006" y2="552.912" class="net_17"/>
+  <line x1="452.73" x2="472.73" y1="552.912" y2="552.912" class="net_17"/>
+  <line x1="2666.016" x2="2666.016" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2666.016" x2="2760.016" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2760.016" x2="2760.016" y1="390.60800000000006" y2="514.144" class="net_17"/>
+  <line x1="2760.016" x2="2790.016" y1="514.144" y2="514.144" class="net_17"/>
+  <line x1="2666.016" x2="2666.016" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2666.016" x2="3511.5620000000004" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3511.5620000000004" y1="390.60800000000006" y2="730.4480000000001" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3746.6880000000006" y1="730.4480000000001" y2="730.4480000000001" class="net_17"/>
+  <line x1="2383.988" x2="2383.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2383.988" x2="3112.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3112.378" x2="3112.378" y1="390.60800000000006" y2="538.528" class="net_17"/>
+  <circle cx="2383.988" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <circle cx="3112.378" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="3112.378" x2="3132.378" y1="538.528" y2="538.528" class="net_17"/>
+  <line x1="2383.988" x2="2383.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2383.988" x2="3102.378" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3102.378" x2="3102.378" y1="390.60800000000006" y2="562.912" class="net_17"/>
+  <circle cx="3102.378" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="3102.378" x2="3132.378" y1="562.912" y2="562.912" class="net_17"/>
+  <line x1="2383.988" x2="2383.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2383.988" x2="462.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="462.73" x2="462.73" y1="390.60800000000006" y2="528.528" class="net_17"/>
+  <circle cx="462.73" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="462.73" x2="472.73" y1="528.528" y2="528.528" class="net_17"/>
+  <line x1="2383.988" x2="2383.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2383.988" x2="452.73" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="452.73" x2="452.73" y1="390.60800000000006" y2="552.912" class="net_17"/>
+  <line x1="452.73" x2="472.73" y1="552.912" y2="552.912" class="net_17"/>
+  <line x1="2383.988" x2="2383.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2383.988" x2="2760.016" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2760.016" x2="2760.016" y1="390.60800000000006" y2="514.144" class="net_17"/>
+  <circle cx="2760.016" cy="390.60800000000006" r="2" style="fill:#000" class="net_17"/>
+  <line x1="2760.016" x2="2790.016" y1="514.144" y2="514.144" class="net_17"/>
+  <line x1="2383.988" x2="2383.988" y1="380.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="2383.988" x2="3511.5620000000004" y1="390.60800000000006" y2="390.60800000000006" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3511.5620000000004" y1="390.60800000000006" y2="730.4480000000001" class="net_17"/>
+  <line x1="3511.5620000000004" x2="3746.6880000000006" y1="730.4480000000001" y2="730.4480000000001" class="net_17"/>
+  <line x1="2116.4629999999997" x2="2116.4629999999997" y1="136.11200000000002" y2="146.11200000000002" class="net_11"/>
+  <line x1="2116.4629999999997" x2="3715.6880000000006" y1="146.11200000000002" y2="146.11200000000002" class="net_11"/>
+  <line x1="3715.6880000000006" x2="3715.6880000000006" y1="146.11200000000002" y2="257.456" class="net_11"/>
+  <line x1="3715.6880000000006" x2="3654.4820000000004" y1="257.456" y2="257.456" class="net_11"/>
+  <circle cx="2116.4629999999997" cy="146.11200000000002" r="2" style="fill:#000" class="net_11"/>
+  <line x1="3654.4820000000004" x2="3654.4820000000004" y1="257.456" y2="235.26400000000004" class="net_11"/>
+  <line x1="2116.4629999999997" x2="2116.4629999999997" y1="136.11200000000002" y2="483.76000000000005" class="net_11"/>
+  <line x1="2116.4629999999997" x2="2126.4629999999997" y1="483.76000000000005" y2="483.76000000000005" class="net_11"/>
+  <line x1="45.205" x2="45.205" y1="126.11200000000002" y2="136.11200000000002" class="net_20"/>
+  <line x1="45.205" x2="304.49600000000004" y1="136.11200000000002" y2="136.11200000000002" class="net_20"/>
+  <line x1="304.49600000000004" x2="304.49600000000004" y1="136.11200000000002" y2="247.45600000000002" class="net_20"/>
+  <line x1="304.49600000000004" x2="243.29" y1="247.45600000000002" y2="247.45600000000002" class="net_20"/>
+  <circle cx="45.205" cy="136.11200000000002" r="2" style="fill:#000" class="net_20"/>
+  <line x1="243.29" x2="243.28999999999996" y1="247.45600000000002" y2="225.26400000000004" class="net_20"/>
+  <line x1="45.205" x2="45.205" y1="126.11200000000002" y2="483.76000000000005" class="net_20"/>
+  <line x1="45.205" x2="215.712" y1="483.76000000000005" y2="483.76000000000005" class="net_20"/>
+</svg>

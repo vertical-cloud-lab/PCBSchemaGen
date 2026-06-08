@@ -20,3 +20,13 @@ ENV/
 *.egg-info/
 dist/
 build/
+
+# Run artifacts / generated outputs
+.xdg/
+p*_results/
+task/topo_cache/
+task/rule_cache/
+task/feedback_runs/
+skidl/lib_pickle_dir/
+skidl_repl*
+temp_p*
