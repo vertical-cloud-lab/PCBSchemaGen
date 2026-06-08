@@ -9,10 +9,17 @@ artifact generation). Both runs used the OpenAI-compatible Anthropic endpoint
 |------|-------------|-------|--------|----------|-----------|
 | [Task 1](task_01_voltage_divider) | Resistor divider (60 V → 3.3 V sense) | Easy | PASS | 1 | 3 |
 | [Task 17](task_17_sync_buck) | Synchronous buck converter | Hard | PASS | 2 | 80 |
+| [powder-doser test module](powder_doser_test_module) | Single-Pico-W bench rig ([powder-doser PR #61](https://github.com/vertical-cloud-lab/powder-doser/pull/61)) | External | PASS | 3 | 14 |
 
 Task 17 is the paper's flagship example (compare with [`../example_output/`](../example_output)).
 It passed on the second attempt: the first attempt was rejected by the topology
 verifier (insufficient output capacitors) and the feedback loop drove the fix.
+
+The [powder-doser test module](powder_doser_test_module) is a real external
+design (a microcontroller/breakout board rather than a power-electronics
+topology) used to exercise the pipeline outside the benchmark; see its
+[README](powder_doser_test_module/README.md) for provenance and the
+generation loop.
 
 ## How these were generated
 
