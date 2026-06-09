@@ -19,7 +19,12 @@ The [powder-doser test module](powder_doser_test_module) is a real external
 design (a microcontroller/breakout board rather than a power-electronics
 topology) used to exercise the pipeline outside the benchmark; see its
 [README](powder_doser_test_module/README.md) for provenance and the
-generation loop.
+generation loop. Its
+[`CELUS_EVALUATION.md`](powder_doser_test_module/CELUS_EVALUATION.md) assesses
+how usable the generated files are for import into a component-driven
+board-synthesis tool ([CELUS](https://celus.io)) and demonstrates a re-prompt
+that adds the missing sourcing metadata (MPNs, datasheets, real footprints, BOM,
+block diagram).
 
 ## How these were generated
 

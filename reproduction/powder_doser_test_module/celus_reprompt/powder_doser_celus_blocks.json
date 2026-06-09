@@ -1,0 +1,302 @@
+{
+  "blocks": {
+    "ACTUATOR": [
+      "M1",
+      "M2",
+      "SOL1"
+    ],
+    "BULK_DECOUPLE": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "HAPTIC": [
+      "U3"
+    ],
+    "MCU": [
+      "U2"
+    ],
+    "MOTOR_DRIVE": [
+      "U4"
+    ],
+    "POWER": [
+      "J1",
+      "SR1",
+      "U1"
+    ],
+    "SERVO": [
+      "M3"
+    ],
+    "STEPPER_DRIVE": [
+      "U5"
+    ]
+  },
+  "interfaces": [
+    {
+      "net": "+12V",
+      "interface": "POWER",
+      "between": [
+        "BULK_DECOUPLE",
+        "MOTOR_DRIVE",
+        "POWER",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "C1.1",
+        "C3.1",
+        "J1.1",
+        "SR1.1",
+        "U1.1",
+        "U4.1",
+        "U5.1"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "interface": "POWER",
+      "between": [
+        "HAPTIC",
+        "MCU"
+      ],
+      "nodes": [
+        "U2.9",
+        "U3.1"
+      ]
+    },
+    {
+      "net": "+5V",
+      "interface": "POWER",
+      "between": [
+        "BULK_DECOUPLE",
+        "MCU",
+        "POWER",
+        "SERVO"
+      ],
+      "nodes": [
+        "C2.1",
+        "M3.1",
+        "U1.3",
+        "U2.10"
+      ]
+    },
+    {
+      "net": "GND",
+      "interface": "POWER",
+      "between": [
+        "BULK_DECOUPLE",
+        "HAPTIC",
+        "MCU",
+        "MOTOR_DRIVE",
+        "POWER",
+        "SERVO",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "C1.2",
+        "C2.2",
+        "C3.2",
+        "J1.2",
+        "M3.2",
+        "SR1.2",
+        "U1.2",
+        "U2.11",
+        "U3.2",
+        "U4.2",
+        "U5.2"
+      ]
+    },
+    {
+      "net": "HAPT_EN",
+      "interface": "GPIO",
+      "between": [
+        "HAPTIC",
+        "MCU"
+      ],
+      "nodes": [
+        "U2.7",
+        "U3.5",
+        "U3.6"
+      ]
+    },
+    {
+      "net": "I2C_SCL",
+      "interface": "I2C",
+      "between": [
+        "HAPTIC",
+        "MCU"
+      ],
+      "nodes": [
+        "U2.2",
+        "U3.4"
+      ]
+    },
+    {
+      "net": "I2C_SDA",
+      "interface": "I2C",
+      "between": [
+        "HAPTIC",
+        "MCU"
+      ],
+      "nodes": [
+        "U2.1",
+        "U3.3"
+      ]
+    },
+    {
+      "net": "SERVO_SIG",
+      "interface": "PWM",
+      "between": [
+        "MCU",
+        "SERVO"
+      ],
+      "nodes": [
+        "M3.3",
+        "U2.8"
+      ]
+    },
+    {
+      "net": "SOL_A",
+      "interface": "MOTOR",
+      "between": [
+        "ACTUATOR",
+        "MOTOR_DRIVE"
+      ],
+      "nodes": [
+        "SOL1.1",
+        "U4.5"
+      ]
+    },
+    {
+      "net": "SOL_B",
+      "interface": "MOTOR",
+      "between": [
+        "ACTUATOR",
+        "MOTOR_DRIVE"
+      ],
+      "nodes": [
+        "SOL1.2",
+        "U4.6"
+      ]
+    },
+    {
+      "net": "SOL_IN1",
+      "interface": "GPIO",
+      "between": [
+        "MCU",
+        "MOTOR_DRIVE"
+      ],
+      "nodes": [
+        "U2.5",
+        "U4.3"
+      ]
+    },
+    {
+      "net": "SOL_IN2",
+      "interface": "GPIO",
+      "between": [
+        "MCU",
+        "MOTOR_DRIVE"
+      ],
+      "nodes": [
+        "U2.6",
+        "U4.4"
+      ]
+    },
+    {
+      "net": "STP_A1",
+      "interface": "STEPPER",
+      "between": [
+        "ACTUATOR",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "M2.1",
+        "U5.6"
+      ]
+    },
+    {
+      "net": "STP_A2",
+      "interface": "STEPPER",
+      "between": [
+        "ACTUATOR",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "M2.2",
+        "U5.7"
+      ]
+    },
+    {
+      "net": "STP_B1",
+      "interface": "STEPPER",
+      "between": [
+        "ACTUATOR",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "M2.3",
+        "U5.8"
+      ]
+    },
+    {
+      "net": "STP_B2",
+      "interface": "STEPPER",
+      "between": [
+        "ACTUATOR",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "M2.4",
+        "U5.9"
+      ]
+    },
+    {
+      "net": "STP_RX",
+      "interface": "UART",
+      "between": [
+        "MCU",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "U2.4",
+        "U5.4"
+      ]
+    },
+    {
+      "net": "STP_TX",
+      "interface": "UART",
+      "between": [
+        "MCU",
+        "STEPPER_DRIVE"
+      ],
+      "nodes": [
+        "U2.3",
+        "U5.3"
+      ]
+    },
+    {
+      "net": "VIB_A",
+      "interface": "MOTOR",
+      "between": [
+        "ACTUATOR",
+        "HAPTIC"
+      ],
+      "nodes": [
+        "M1.1",
+        "U3.7"
+      ]
+    },
+    {
+      "net": "VIB_B",
+      "interface": "MOTOR",
+      "between": [
+        "ACTUATOR",
+        "HAPTIC"
+      ],
+      "nodes": [
+        "M1.2",
+        "U3.8"
+      ]
+    }
+  ]
+}

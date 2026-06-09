@@ -1,0 +1,15 @@
+Ref,Value,Block,MPN,Manufacturer,Footprint,Datasheet
+C1,Cap_100uF_25V,BULK_DECOUPLE,UVR1E101MDD,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf
+C2,Cap_100uF_10V,BULK_DECOUPLE,UVR1A101MDD,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf
+C3,Cap_100uF_25V_Tic,BULK_DECOUPLE,UVR1E101MDD,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf
+J1,BarrelJack_12V,POWER,PJ-002A,CUI Devices,Connector_BarrelJack:BarrelJack_CUI_PJ-002A,https://www.cui.com/product/resource/pj-002a.pdf
+M1,ERM_Coin_10mm,ACTUATOR,ERM-10mm-Coin,Generic,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.precisionmicrodrives.com/vibration-motors/coin-vibration-motors/
+M2,NEMA11_Stepper,ACTUATOR,NEMA11-Bipolar-Stepper,Generic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,https://www.pololu.com/category/87/stepper-motors
+M3,HD-1810MG_Servo,SERVO,HD-1810MG,Hitec,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://hitecrcd.com/products/servos/micro-and-mini-servos/analog-micro-mini-servos/hd-1810mg/product
+SOL1,JF-0530B,ACTUATOR,JF-0530B,Zonhen,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.zonhen.com/uploads/product/JF-0530B.pdf
+SR1,ShuntReg_3776,POWER,3776,Pololu,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.pololu.com/product/3776
+U1,D24V22F5,POWER,2858,Pololu,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://www.pololu.com/product/2858
+U2,PicoW,MCU,SC0918,Raspberry Pi,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf
+U3,DRV2605L,HAPTIC,2305,Adafruit,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,https://www.adafruit.com/product/2305
+U4,DRV8871,MOTOR_DRIVE,3190,Adafruit,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,https://www.adafruit.com/product/3190
+U5,TicT500,STEPPER_DRIVE,3134,Pololu,Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical,https://www.pololu.com/product/3134

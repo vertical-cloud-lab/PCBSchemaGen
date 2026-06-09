@@ -98,3 +98,13 @@ designs.
   in PR #2).
 - No secrets are committed; the API key is read from the environment at runtime
   and never written to any artifact.
+
+## CELUS suitability
+
+[`CELUS_EVALUATION.md`](CELUS_EVALUATION.md) evaluates how usable these
+artifacts are as input to a component-driven board-synthesis tool such as
+[CELUS](https://celus.io): it maps CELUS's board-creation requirements against
+what the run provides, scores fulfilled / partial / missing, and demonstrates a
+**re-prompt** ([`celus_reprompt/`](celus_reprompt/)) that closes the metadata
+gaps (manufacturer part numbers, datasheets, real footprints, a BOM, and a
+functional block diagram) without changing the verified connectivity.
