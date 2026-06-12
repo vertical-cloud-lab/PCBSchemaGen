@@ -136,8 +136,8 @@ net, still **0 ERC errors**.
 | R4 | Power domains | ✅ | `+12V`/`+5V`/`+3V3`/`GND` |
 | R5 | Real footprint | ✅ | e.g. `BarrelJack_CUI_PJ-002A`, `PinHeader_2x20…` for the Pico W |
 | R6 | MPN | ✅ | e.g. Pico W `SC0918`, D24V22F5 `2858`, DRV2605L `2305`, Tic T500 `3134` |
-| R7 | Manufacturer | ✅ | Raspberry Pi, Pololu, Adafruit, Nichicon, CUI, … |
-| R8 | Datasheet | ✅ | datasheet/product URL per component |
+| R7 | Manufacturer | ✅ | Raspberry Pi, Pololu, Adafruit, StepperOnline, Power HD, Nichicon |
+| R8 | Datasheet | ✅ **verified** | datasheet/product URL per component, confirmed against the powder-doser project's `hardware/vendor-files/` + manufacturer pages — see [`celus_reprompt/DATASHEET_VERIFICATION.md`](celus_reprompt/DATASHEET_VERIFICATION.md) |
 | R9 | BOM | ✅ | `powder_doser_celus_bom.csv` (14 lines) |
 | R10 | Values / ratings | ✅ (improved) | real cap MPNs at rated voltage; named parts as MPN |
 | R11 | Mechanical | ❌ still out of scope | needs a mechanical/enclosure input, not PCBSchemaGen |
@@ -166,12 +166,24 @@ mechanical/form-factor data that is outside PCBSchemaGen's electrical scope.**
 5. **Add a readiness gate.** Reject-and-retry on any component missing required
    metadata makes "CELUS-ready" an enforced exit criterion of the loop, not a
    hope. *Demonstrated.*
+6. **Verify the datasheets against the source project.** Every MPN / manufacturer
+   / datasheet was confirmed against the powder-doser project's own
+   `hardware/vendor-files/` (committed vendor datasheets + `SOURCES.txt`/`SPECS.md`)
+   and the manufacturers' pages, correcting the few wrong/dead links the model
+   had supplied. *Demonstrated
+   ([`celus_reprompt/DATASHEET_VERIFICATION.md`](celus_reprompt/DATASHEET_VERIFICATION.md)).*
 
 ### Caveats / what still needs a human or another tool
 
-* **MPN accuracy.** The model-supplied MPNs/datasheets are plausible and
-  correctly formatted but are **not verified against live distributor stock** —
-  they should be confirmed (or matched by CELUS's own catalog) before ordering.
+* **MPN / datasheet accuracy — now verified.** The sourcing metadata has been
+  confirmed against the powder-doser project's `hardware/vendor-files/` and the
+  manufacturers' own material, and the wrong/dead links the first run produced
+  (servo "Hitec", solenoid "Zonhen", the dead CUI/Nichicon PDFs, the
+  "Generic" stepper/ERM) were corrected. See
+  [`celus_reprompt/DATASHEET_VERIFICATION.md`](celus_reprompt/DATASHEET_VERIFICATION.md)
+  for the per-part sources. Live distributor **stock/price** should still be
+  checked before ordering, and the bulk caps remain generic-by-spec (any 100 µF
+  radial electrolytic at the rated voltage).
 * **Footprints are placeholders-by-pin-count.** Breakouts are mapped to generic
   pin-header footprints sized to their pin count; CELUS (or a designer) should
   swap in each module's true mechanical footprint.

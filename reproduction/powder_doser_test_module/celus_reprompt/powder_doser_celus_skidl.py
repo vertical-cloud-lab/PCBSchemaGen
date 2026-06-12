@@ -32,7 +32,7 @@ def make(name, ref, pins, footprint, mpn, mfr, datasheet, block):
 # ===========================================================================
 
 # ---------------------------------------------------------------------------
-# J1 – 12 V barrel-jack PSU  (CUI PJ-002A)
+# J1 – 12 V barrel-jack power input  (Adafruit #373, powder-doser BOM item 8)
 # ---------------------------------------------------------------------------
 J1 = make(
     name      = "BarrelJack_12V",
@@ -42,9 +42,9 @@ J1 = make(
         (2, "-", Pin.types.PWRIN),
     ],
     footprint = "Connector_BarrelJack:BarrelJack_CUI_PJ-002A",
-    mpn       = "PJ-002A",
-    mfr       = "CUI Devices",
-    datasheet = "https://www.cui.com/product/resource/pj-002a.pdf",
+    mpn       = "373",
+    mfr       = "Adafruit",
+    datasheet = "https://www.adafruit.com/product/373",
     block     = "POWER",
 )
 
@@ -126,9 +126,9 @@ M1 = make(
         (2, "-", Pin.types.PASSIVE),
     ],
     footprint = "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
-    mpn       = "ERM-10mm-Coin",
-    mfr       = "Generic",
-    datasheet = "https://www.precisionmicrodrives.com/vibration-motors/coin-vibration-motors/",
+    mpn       = "1201",
+    mfr       = "Adafruit",
+    datasheet = "https://www.adafruit.com/product/1201",
     block     = "ACTUATOR",
 )
 
@@ -165,8 +165,8 @@ SOL1 = make(
     ],
     footprint = "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
     mpn       = "JF-0530B",
-    mfr       = "Zonhen",
-    datasheet = "https://www.zonhen.com/uploads/product/JF-0530B.pdf",
+    mfr       = "Adafruit",
+    datasheet = "https://www.adafruit.com/product/412",
     block     = "ACTUATOR",
 )
 
@@ -224,9 +224,9 @@ M2 = make(
         (4, "B2", Pin.types.PASSIVE),
     ],
     footprint = "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
-    mpn       = "NEMA11-Bipolar-Stepper",
-    mfr       = "Generic",
-    datasheet = "https://www.pololu.com/category/87/stepper-motors",
+    mpn       = "11HS18-0674S",
+    mfr       = "StepperOnline",
+    datasheet = "https://www.omc-stepperonline.com/nema-11-bipolar-1-8deg-10ncm-14-16oz-in-0-67a-28x28x45mm-4-wires-11hs18-0674s",
     block     = "ACTUATOR",
 )
 
@@ -243,8 +243,8 @@ M3 = make(
     ],
     footprint = "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
     mpn       = "HD-1810MG",
-    mfr       = "Hitec",
-    datasheet = "https://hitecrcd.com/products/servos/micro-and-mini-servos/analog-micro-mini-servos/hd-1810mg/product",
+    mfr       = "Power HD",
+    datasheet = "https://www.adafruit.com/product/1142",
     block     = "SERVO",
 )
 
@@ -261,7 +261,7 @@ C1 = make(
     footprint = "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
     mpn       = "UVR1E101MDD",
     mfr       = "Nichicon",
-    datasheet = "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf",
+    datasheet = "https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf",
     block     = "BULK_DECOUPLE",
 )
 
@@ -278,7 +278,7 @@ C2 = make(
     footprint = "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
     mpn       = "UVR1A101MDD",
     mfr       = "Nichicon",
-    datasheet = "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf",
+    datasheet = "https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf",
     block     = "BULK_DECOUPLE",
 )
 
@@ -295,7 +295,7 @@ C3 = make(
     footprint = "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
     mpn       = "UVR1E101MDD",
     mfr       = "Nichicon",
-    datasheet = "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf",
+    datasheet = "https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf",
     block     = "BULK_DECOUPLE",
 )
 

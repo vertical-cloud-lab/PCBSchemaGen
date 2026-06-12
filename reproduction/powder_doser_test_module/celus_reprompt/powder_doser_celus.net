@@ -53,7 +53,7 @@
         (field
           (name "Manufacturer") "Nichicon")
         (field
-          (name "Datasheet") "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf")
+          (name "Datasheet") "https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf")
         (field
           (name "Block") "BULK_DECOUPLE")
         (field
@@ -85,7 +85,7 @@
         (field
           (name "Manufacturer") "Nichicon")
         (field
-          (name "Datasheet") "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf")
+          (name "Datasheet") "https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf")
         (field
           (name "Block") "BULK_DECOUPLE")
         (field
@@ -117,7 +117,7 @@
         (field
           (name "Manufacturer") "Nichicon")
         (field
-          (name "Datasheet") "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf")
+          (name "Datasheet") "https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf")
         (field
           (name "Block") "BULK_DECOUPLE")
         (field
@@ -145,11 +145,11 @@
       (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-002A")
       (fields
         (field
-          (name "MPN") "PJ-002A")
+          (name "MPN") "373")
         (field
-          (name "Manufacturer") "CUI Devices")
+          (name "Manufacturer") "Adafruit")
         (field
-          (name "Datasheet") "https://www.cui.com/product/resource/pj-002a.pdf")
+          (name "Datasheet") "https://www.adafruit.com/product/373")
         (field
           (name "Block") "POWER")
         (field
@@ -177,11 +177,11 @@
       (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
       (fields
         (field
-          (name "MPN") "ERM-10mm-Coin")
+          (name "MPN") "1201")
         (field
-          (name "Manufacturer") "Generic")
+          (name "Manufacturer") "Adafruit")
         (field
-          (name "Datasheet") "https://www.precisionmicrodrives.com/vibration-motors/coin-vibration-motors/")
+          (name "Datasheet") "https://www.adafruit.com/product/1201")
         (field
           (name "Block") "ACTUATOR")
         (field
@@ -209,11 +209,11 @@
       (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
       (fields
         (field
-          (name "MPN") "NEMA11-Bipolar-Stepper")
+          (name "MPN") "11HS18-0674S")
         (field
-          (name "Manufacturer") "Generic")
+          (name "Manufacturer") "StepperOnline")
         (field
-          (name "Datasheet") "https://www.pololu.com/category/87/stepper-motors")
+          (name "Datasheet") "https://www.omc-stepperonline.com/nema-11-bipolar-1-8deg-10ncm-14-16oz-in-0-67a-28x28x45mm-4-wires-11hs18-0674s")
         (field
           (name "Block") "ACTUATOR")
         (field
@@ -243,9 +243,9 @@
         (field
           (name "MPN") "HD-1810MG")
         (field
-          (name "Manufacturer") "Hitec")
+          (name "Manufacturer") "Power HD")
         (field
-          (name "Datasheet") "https://hitecrcd.com/products/servos/micro-and-mini-servos/analog-micro-mini-servos/hd-1810mg/product")
+          (name "Datasheet") "https://www.adafruit.com/product/1142")
         (field
           (name "Block") "SERVO")
         (field
@@ -275,9 +275,9 @@
         (field
           (name "MPN") "JF-0530B")
         (field
-          (name "Manufacturer") "Zonhen")
+          (name "Manufacturer") "Adafruit")
         (field
-          (name "Datasheet") "https://www.zonhen.com/uploads/product/JF-0530B.pdf")
+          (name "Datasheet") "https://www.adafruit.com/product/412")
         (field
           (name "Block") "ACTUATOR")
         (field
