@@ -1,0 +1,109 @@
+
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+ERC WARNING: Merging two named nets (KS_H and GND_SEC_H) into KS_H.
+ERC WARNING: Merging two named nets (KS_L and GND_SEC_L) into KS_L.
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_H) attached to net PWM_H.
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_L) attached to net PWM_L.
+ERC INFO: 4 warnings found while running ERC.
+ERC INFO: 0 errors found while running ERC.
+
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_H) attached to net PWM_H.
+ERC WARNING: Only one pin (PASSIVE pin 2/IN+ of UCC5390E/U_DRV_L) attached to net PWM_L.
+ERC INFO: 2 warnings found while running ERC.
+ERC INFO: 0 errors found while running ERC.
+
+WARNING: Missing tag on MGJ2D121505SC instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:64.
+WARNING: Random tag EgFHH2BoZX generated for MGJ2D121505SC.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:78.
+WARNING: Random tag I47_mh6fNG generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:83.
+WARNING: Random tag r8Rne9ddy2 generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:88.
+WARNING: Random tag swJLhv3LWf generated for C.
+WARNING: Missing tag on MGJ2D121505SC instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:96.
+WARNING: Random tag tZWwQdFzAX generated for MGJ2D121505SC.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:110.
+WARNING: Random tag V9MIQsKtE_ generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:115.
+WARNING: Random tag m8Nt2Ejkkn generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:120.
+WARNING: Random tag 0XwgDvqqCc generated for C.
+WARNING: Missing tag on UCC5390E instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:128.
+WARNING: Random tag n5X1UxLJ_q generated for UCC5390E.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:143.
+WARNING: Random tag Yz9mqQP5fF generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:149.
+WARNING: Random tag WI_Ym7t3Bb generated for C.
+WARNING: Missing tag on R instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:163.
+WARNING: Random tag D4Mkyzw9Vw generated for R.
+WARNING: Missing tag on R instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:169.
+WARNING: Random tag sTS32Qfe8l generated for R.
+WARNING: Missing tag on D instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:172.
+WARNING: Random tag qzu7uxhKot generated for D.
+WARNING: Missing tag on IMZA65R015M2H instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:188.
+WARNING: Random tag oPPWZC6a_0 generated for IMZA65R015M2H.
+WARNING: Missing tag on UCC5390E instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:199.
+WARNING: Random tag pT_bhruhYs generated for UCC5390E.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:214.
+WARNING: Random tag rLwYeZLIcr generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:220.
+WARNING: Random tag lAB7BvDH3L generated for C.
+WARNING: Missing tag on R instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:234.
+WARNING: Random tag komKsN5HEm generated for R.
+WARNING: Missing tag on R instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:240.
+WARNING: Random tag yeKneD2s5o generated for R.
+WARNING: Missing tag on D instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:243.
+WARNING: Random tag 73oRlb6JsV generated for D.
+WARNING: Missing tag on IMZA65R015M2H instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:257.
+WARNING: Random tag 3t6BoHA3hH generated for IMZA65R015M2H.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag iacopRodbZ generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag gflTpiuRf1 generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag vGeK6B8JrW generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag _ftSaI_7Ut generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag 56RrGEOXnk generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag 9ocLO6o85E generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag eXAYfxQPTC generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag WwPAkt1Dpr generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag 9ZK0vB1cXj generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:275.
+WARNING: Random tag O4CyVil_5h generated for C.
+WARNING: Missing tag on Inductor_power instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:284.
+WARNING: Random tag Xk9WU0cQMM generated for Inductor_power.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:305.
+WARNING: Random tag 7wIWhJMyHl generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:310.
+WARNING: Random tag NY7rZ2IKkg generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:315.
+WARNING: Random tag D1LMb8FTwV generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:320.
+WARNING: Random tag 0_GUhRUe93 generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:328.
+WARNING: Random tag 2iKKyFT2p7 generated for C.
+WARNING: Missing tag on C instantiated at /tmp/tmp2dwe6w2c/extracted_task_17.py:333.
+WARNING: Random tag vHDs1883w1 generated for C.
+WARNING: Missing tag on  instantiated at /tmp/tmp2dwe6w2c/<frozen importlib._bootstrap>:488.
+INFO: 83 warnings found while generating netlist.
+INFO: 0 errors found while generating netlist.
+
+INFO: 83 warnings found while generating SVG.
+INFO: 0 errors found while generating SVG.
+
+WARNING: Missing tag on  instantiated at /tmp/tmp2dwe6w2c/<frozen importlib._bootstrap>:488.
+./kicad/pcbnew/action_plugin.cpp(163): assert "PgmOrNull()" failed in register_action().
+Unable to find footprint MGJ2D121505SC in /tmp/workspace/vertical-cloud-lab/PCBSchemaGen/library/test.pretty
+Unable to find footprint MGJ2D121505SC in /tmp/workspace/vertical-cloud-lab/PCBSchemaGen/library/test.pretty
+INFO: 84 warnings found while creating PCB.
+INFO: 0 errors found while creating PCB.
+

@@ -1,0 +1,31 @@
+
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+ERC WARNING: Only one pin (PASSIVE pin 1/~ of R/R1) attached to net VIN.
+ERC INFO: 1 warnings found while running ERC.
+ERC INFO: 0 errors found while running ERC.
+
+ERC WARNING: Only one pin (PASSIVE pin 1/~ of R/R1) attached to net VIN.
+ERC INFO: 1 warnings found while running ERC.
+ERC INFO: 0 errors found while running ERC.
+
+WARNING: Missing tag on R instantiated at /tmp/tmph6rc_34b/extracted_task_1.py:54.
+WARNING: Random tag zP5huUlx1q generated for R.
+WARNING: Missing tag on R instantiated at /tmp/tmph6rc_34b/extracted_task_1.py:57.
+WARNING: Random tag Awo67NjR2F generated for R.
+WARNING: Missing tag on C instantiated at /tmp/tmph6rc_34b/extracted_task_1.py:60.
+WARNING: Random tag KD0NSwu7kz generated for C.
+WARNING: Missing tag on  instantiated at /tmp/tmph6rc_34b/<frozen importlib._bootstrap>:488.
+INFO: 11 warnings found while generating netlist.
+INFO: 0 errors found while generating netlist.
+
+INFO: 11 warnings found while generating SVG.
+INFO: 0 errors found while generating SVG.
+
+WARNING: Missing tag on  instantiated at /tmp/tmph6rc_34b/<frozen importlib._bootstrap>:488.
+./kicad/pcbnew/action_plugin.cpp(163): assert "PgmOrNull()" failed in register_action().
+INFO: 12 warnings found while creating PCB.
+INFO: 0 errors found while creating PCB.
+

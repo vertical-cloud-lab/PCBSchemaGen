@@ -1,0 +1,57 @@
+### Task 1
+
+#### Components Needed
+- **R1**: Top resistor of the divider (high-value, e.g., 100k) — from VIN to VSENSE
+- **R2**: Bottom resistor of the divider (lower-value, e.g., 10k) — from VSENSE to GND
+- **C1**: Filter capacitor (100nF) across R2 (from VSENSE to GND) to reduce noise on the sense node
+
+#### Design Logic
+1. **Resistor Divider**: VIN is divided down by R1 and R2. The output voltage at VSENSE = VIN × R2 / (R1 + R2).
+   - With R1 = 100k and R2 = 10k: VSENSE = VIN × 10/110 ≈ 0.0909 × VIN
+   - This scales a high-voltage input to a low-voltage ADC-compatible sense node.
+2. **Filter Capacitor**: C1 placed in parallel with R2 (between VSENSE and GND) to filter high-frequency noise.
+3. **GND**: Common ground reference for the bottom of the divider and the capacitor.
+
+#### Net Connections
+- VIN → R1[1]
+- R1[2] → VSENSE → R2[1] → C1[1]
+- R2[2] → GND → C1[2]
+
+### Task 2
+
+```python
+from skidl import *
+
+# 1. Define Nets
+vin    = Net("VIN")
+vsense = Net("VSENSE")
+gnd    = Net("GND")
+
+# 2. Instantiate Components
+
+# Top resistor of divider: 100k
+r1 = Part("test", "R", value="100k", footprint="test:R_0805")
+
+# Bottom resistor of divider: 10k
+r2 = Part("test", "R", value="10k", footprint="test:R_0805")
+
+# Filter capacitor across bottom resistor: 100nF
+c1 = Part("test", "C", value="100nF", footprint="test:C_0805")
+
+# 3. Connections
+
+# VIN -> R1 -> VSENSE
+vin      += r1[1]
+r1[2]    += vsense
+
+# VSENSE -> R2 -> GND
+vsense   += r2[1]
+r2[2]    += gnd
+
+# C1 across R2 (VSENSE to GND) for noise filtering
+c1[1]    += vsense
+c1[2]    += gnd
+
+# 4. ERC Check
+ERC()
+```

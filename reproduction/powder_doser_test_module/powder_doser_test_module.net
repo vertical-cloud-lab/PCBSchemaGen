@@ -1,0 +1,689 @@
+(export 
+  (version "D")
+  (design
+    (source "powder_doser_test_module.py")
+    (date "06/08/2026 11:53 PM")
+    (tool "SKiDL (2.2.3)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "powder_doser_test_module.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "C1")
+      (value "100uF/25V")
+      (description "")
+      (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7cDYOt0Sue")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:153"))
+      (libsource
+        (lib "NO_LIB")
+        (part "CP"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "427d5fe4-b2e4-5b57-9b62-5ff9114fa984"))
+    (comp
+      (ref "C2")
+      (value "100uF/10V")
+      (description "")
+      (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "kHQYfvzfGV")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:154"))
+      (libsource
+        (lib "NO_LIB")
+        (part "CP"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1fef039b-e24d-57d0-b7b8-689c10b16922"))
+    (comp
+      (ref "C3")
+      (value "100uF/25V")
+      (description "")
+      (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "M6LyKJwpEr")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:155"))
+      (libsource
+        (lib "NO_LIB")
+        (part "CP"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8d452292-6dca-5215-aff9-6539cf758e82"))
+    (comp
+      (ref "J1")
+      (value "Barrel_Jack_12V")
+      (description "")
+      (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_BarrelJack:BarrelJack_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "zzyFcPIqWx")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Barrel_Jack_12V"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a2c4ed3f-e19f-55f7-ae08-9785f3505587"))
+    (comp
+      (ref "M1")
+      (value "ERM_Motor")
+      (description "")
+      (footprint "Motor:Fan_4pin")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Motor:Fan_4pin")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "CFGAjmQ2Fg")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ERM_Motor"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "1cfeac11-18a0-5944-a28c-15daea26b28c"))
+    (comp
+      (ref "M2")
+      (value "NEMA11_Stepper")
+      (description "")
+      (footprint "Motor:Stepper_Motor_Nidec_Copal_KP39HM2-005")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Motor:Stepper_Motor_Nidec_Copal_KP39HM2-005")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "hoH11mvysm")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "NEMA11_Stepper"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0a12676d-d17d-5311-afce-8de84b5412cd"))
+    (comp
+      (ref "M3")
+      (value "HD_1810MG_Servo")
+      (description "")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "MuTWrb_hD_")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "HD_1810MG_Servo"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "9e6a6bdd-026f-5eb2-b976-d821508ecb36"))
+    (comp
+      (ref "SOL1")
+      (value "JF_0530B_Solenoid")
+      (description "")
+      (footprint "Motor:Fan_4pin")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Motor:Fan_4pin")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "T23kEftp_Z")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "JF_0530B_Solenoid"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "273c17c9-5960-5df0-b7d8-3ccd3a95fc4e"))
+    (comp
+      (ref "SR1")
+      (value "Pololu_3776_Shunt")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "jFWTqhRDhs")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Pololu_3776_Shunt"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c87b8e13-539d-5fb9-bd02-e3bb3d098a02"))
+    (comp
+      (ref "U1")
+      (value "Pololu_D24V22F5")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "s0IAygXylD")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Pololu_D24V22F5"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aff1a305-aa5b-5906-9928-33dbe88d86a5"))
+    (comp
+      (ref "U2")
+      (value "RaspberryPi_Pico_W")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "biTQlyTK_P")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "RaspberryPi_Pico_W"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "50b48a22-6bb9-5557-9c42-00a7229db4ff"))
+    (comp
+      (ref "U3")
+      (value "DRV2605L")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "mF0TdAxxhj")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "DRV2605L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "173cdca2-a211-5fd9-8eaf-335d29237d3a"))
+    (comp
+      (ref "U4")
+      (value "DRV8871")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "dBNDdsw8Kz")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "DRV8871"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "58264d0a-5e9d-59fb-81c2-d396c25f50c4"))
+    (comp
+      (ref "U5")
+      (value "Pololu_Tic_T500")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Fje81dUDwj")
+        (field
+          (name "SKiDL Line") "powder_doser_test_module.py:49"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Pololu_Tic_T500"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "31a3d7f3-765b-5bb7-a4bb-6a34f82d15eb")))
+  (nets
+    (net
+      (code 1)
+      (name "+12V")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "1")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "SR1")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U1")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U5")
+        (pin "1")
+        (pintype "POWER-IN")))
+    (net
+      (code 2)
+      (name "+3V3")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "36")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "U3")
+        (pin "1")
+        (pintype "POWER-IN")))
+    (net
+      (code 3)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "C2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "M3")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U1")
+        (pin "3")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "U2")
+        (pin "39")
+        (pintype "POWER-IN")))
+    (net
+      (code 4)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "2")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "M3")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "SR1")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U1")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U2")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U3")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U5")
+        (pin "2")
+        (pintype "POWER-IN")))
+    (net
+      (code 5)
+      (name "HAPT_EN")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "19")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U3")
+        (pin "5")
+        (pintype "INPUT"))
+      (node
+        (ref "U3")
+        (pin "6")
+        (pintype "INPUT")))
+    (net
+      (code 6)
+      (name "I2C_SCL")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "2")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U3")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 7)
+      (name "I2C_SDA")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "1")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U3")
+        (pin "3")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 8)
+      (name "SERVO_SIG")
+      (class "Default")
+      (node
+        (ref "M3")
+        (pin "3")
+        (pintype "INPUT"))
+      (node
+        (ref "U2")
+        (pin "20")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 9)
+      (name "SOL_A")
+      (class "Default")
+      (node
+        (ref "SOL1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4")
+        (pin "5")
+        (pintype "OUTPUT")))
+    (net
+      (code 10)
+      (name "SOL_B")
+      (class "Default")
+      (node
+        (ref "SOL1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4")
+        (pin "6")
+        (pintype "OUTPUT")))
+    (net
+      (code 11)
+      (name "SOL_IN1")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "14")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U4")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 12)
+      (name "SOL_IN2")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "15")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U4")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 13)
+      (name "STP_A1")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "8")
+        (pintype "OUTPUT")))
+    (net
+      (code 14)
+      (name "STP_A2")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "9")
+        (pintype "OUTPUT")))
+    (net
+      (code 15)
+      (name "STP_B1")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "10")
+        (pintype "OUTPUT")))
+    (net
+      (code 16)
+      (name "STP_B2")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "11")
+        (pintype "OUTPUT")))
+    (net
+      (code 17)
+      (name "STP_RX")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "7")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U5")
+        (pin "4")
+        (pintype "OUTPUT")))
+    (net
+      (code 18)
+      (name "STP_TX")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "6")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U5")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 19)
+      (name "VIB_A")
+      (class "Default")
+      (node
+        (ref "M1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 20)
+      (name "VIB_B")
+      (class "Default")
+      (node
+        (ref "M1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "8")
+        (pintype "OUTPUT")))))

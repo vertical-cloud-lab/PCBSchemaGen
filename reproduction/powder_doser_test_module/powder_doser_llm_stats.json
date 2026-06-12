@@ -1,0 +1,13 @@
+{
+  "task": "powder_doser_test_module",
+  "source": "vertical-cloud-lab/powder-doser PR #61 (head 147e505)",
+  "model": "claude-sonnet-4-6",
+  "base_url": "https://api.anthropic.com/v1/",
+  "timestamp": "2026-06-08T23:50:56",
+  "total_duration_seconds": 34.46,
+  "attempts": 3,
+  "total_prompt_tokens": 4686,
+  "total_completion_tokens": 3152,
+  "status": "PASS",
+  "failure_reason": ""
+}

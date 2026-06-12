@@ -1,0 +1,689 @@
+(export 
+  (version "D")
+  (design
+    (source "attempt_3_skidl.py")
+    (date "06/08/2026 11:50 PM")
+    (tool "SKiDL (2.2.3)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "attempt_3_skidl.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "C1")
+      (value "Cap100uF25V")
+      (description "")
+      (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "0qFXnVu3p0")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Cap100uF25V"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "aab16344-d84d-5d00-bdf6-8dfe0b6f2d7c"))
+    (comp
+      (ref "C2")
+      (value "Cap100uF10V")
+      (description "")
+      (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "9V2eSq0C44")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Cap100uF10V"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "20881ea3-4c57-50ac-b531-f49d4aab6469"))
+    (comp
+      (ref "C3")
+      (value "Cap100uF25V_C3")
+      (description "")
+      (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "oPAhLDnHwQ")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Cap100uF25V_C3"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "130ba5fb-3080-5720-80a5-35a44fcd2ff3"))
+    (comp
+      (ref "J1")
+      (value "BarrelJack")
+      (description "")
+      (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-002A")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_BarrelJack:BarrelJack_CUI_PJ-002A")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "eSlxdW9faw")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "BarrelJack"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "662a2246-b96e-5be0-bd9a-f5187e855a0c"))
+    (comp
+      (ref "M1")
+      (value "ERMMotor")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ohjgnHlIH9")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ERMMotor"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "ab8a60b1-f4c1-5348-93c8-76c69eed07d2"))
+    (comp
+      (ref "M2")
+      (value "NEMA11Stepper")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "iZvpr4iloT")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "NEMA11Stepper"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "d4c7e32c-4592-5368-b55c-36e2232aa47f"))
+    (comp
+      (ref "M3")
+      (value "HobbyServo")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "0eotHcKHpO")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "HobbyServo"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a0a5dd4d-8351-5572-92a5-dbca7c45e311"))
+    (comp
+      (ref "SOL1")
+      (value "Solenoid")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "81RljoOaOh")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Solenoid"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "51124637-8093-5801-a5a7-bf62ed72cd2e"))
+    (comp
+      (ref "SR1")
+      (value "ShuntReg3776")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "fhfpMMt5Mb")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ShuntReg3776"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "9fb2d8a8-94ca-50f0-918e-d759ddd64fca"))
+    (comp
+      (ref "U1")
+      (value "D24V22F5")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ed6ENwzGZw")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "D24V22F5"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7182939f-f9d4-5b17-a03b-f57f910e2ff6"))
+    (comp
+      (ref "U2")
+      (value "PicoW")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "RvyLmO2tbH")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "PicoW"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "281e4b7e-c5aa-5d75-b983-b61e3d010700"))
+    (comp
+      (ref "U3")
+      (value "DRV2605L")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "tij7UZQlEY")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "DRV2605L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "cf2062e2-c232-521c-ba74-aa85ca11b4bf"))
+    (comp
+      (ref "U4")
+      (value "DRV8871")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "95aWeGGkTm")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "DRV8871"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "eac17505-77c3-59ac-9f9e-02827cc9c388"))
+    (comp
+      (ref "U5")
+      (value "TicT500")
+      (description "")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "rvUz5QMHZ5")
+        (field
+          (name "SKiDL Line") "attempt_3_skidl.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "TicT500"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c6a3ebe1-2d2a-5e88-bfdd-3d97508196cf")))
+  (nets
+    (net
+      (code 1)
+      (name "+12V")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "1")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "SR1")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U1")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U5")
+        (pin "1")
+        (pintype "POWER-IN")))
+    (net
+      (code 2)
+      (name "+3V3")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "9")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "U3")
+        (pin "1")
+        (pintype "POWER-IN")))
+    (net
+      (code 3)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "C2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "M3")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U1")
+        (pin "3")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "U2")
+        (pin "10")
+        (pintype "POWER-IN")))
+    (net
+      (code 4)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "J1")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "M3")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "SR1")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U1")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U2")
+        (pin "11")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U3")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U5")
+        (pin "2")
+        (pintype "POWER-IN")))
+    (net
+      (code 5)
+      (name "HAPT_EN")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "7")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U3")
+        (pin "5")
+        (pintype "INPUT"))
+      (node
+        (ref "U3")
+        (pin "6")
+        (pintype "INPUT")))
+    (net
+      (code 6)
+      (name "I2C_SCL")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "2")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U3")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 7)
+      (name "I2C_SDA")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "1")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U3")
+        (pin "3")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 8)
+      (name "SERVO_SIG")
+      (class "Default")
+      (node
+        (ref "M3")
+        (pin "3")
+        (pintype "INPUT"))
+      (node
+        (ref "U2")
+        (pin "8")
+        (pintype "BIDIRECTIONAL")))
+    (net
+      (code 9)
+      (name "SOL_A")
+      (class "Default")
+      (node
+        (ref "SOL1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4")
+        (pin "5")
+        (pintype "OUTPUT")))
+    (net
+      (code 10)
+      (name "SOL_B")
+      (class "Default")
+      (node
+        (ref "SOL1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4")
+        (pin "6")
+        (pintype "OUTPUT")))
+    (net
+      (code 11)
+      (name "SOL_IN1")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "5")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U4")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 12)
+      (name "SOL_IN2")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "6")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U4")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 13)
+      (name "STP_A1")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "6")
+        (pintype "OUTPUT")))
+    (net
+      (code 14)
+      (name "STP_A2")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 15)
+      (name "STP_B1")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "8")
+        (pintype "OUTPUT")))
+    (net
+      (code 16)
+      (name "STP_B2")
+      (class "Default")
+      (node
+        (ref "M2")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5")
+        (pin "9")
+        (pintype "OUTPUT")))
+    (net
+      (code 17)
+      (name "STP_RX")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "4")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U5")
+        (pin "4")
+        (pintype "OUTPUT")))
+    (net
+      (code 18)
+      (name "STP_TX")
+      (class "Default")
+      (node
+        (ref "U2")
+        (pin "3")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U5")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 19)
+      (name "VIB_A")
+      (class "Default")
+      (node
+        (ref "M1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 20)
+      (name "VIB_B")
+      (class "Default")
+      (node
+        (ref "M1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3")
+        (pin "8")
+        (pintype "OUTPUT")))))

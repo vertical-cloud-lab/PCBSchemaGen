@@ -1,0 +1,15 @@
+Ref,Value,Block,MPN,Manufacturer,Footprint,Datasheet
+C1,Cap_100uF_25V,BULK_DECOUPLE,UVR1E101MDD,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf
+C2,Cap_100uF_10V,BULK_DECOUPLE,UVR1A101MDD,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf
+C3,Cap_100uF_25V_Tic,BULK_DECOUPLE,UVR1E101MDD,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,https://www.nichicon.co.jp/series_items/catalog_pdf/ja/pdf/xja043/uvr.pdf
+J1,BarrelJack_12V,POWER,373,Adafruit,Connector_BarrelJack:BarrelJack_CUI_PJ-002A,https://www.adafruit.com/product/373
+M1,ERM_Coin_10mm,ACTUATOR,1201,Adafruit,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.adafruit.com/product/1201
+M2,NEMA11_Stepper,ACTUATOR,11HS18-0674S,StepperOnline,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,https://www.omc-stepperonline.com/nema-11-bipolar-1-8deg-10ncm-14-16oz-in-0-67a-28x28x45mm-4-wires-11hs18-0674s
+M3,HD-1810MG_Servo,SERVO,HD-1810MG,Power HD,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://www.adafruit.com/product/1142
+SOL1,JF-0530B,ACTUATOR,JF-0530B,Adafruit,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.adafruit.com/product/412
+SR1,ShuntReg_3776,POWER,3776,Pololu,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://www.pololu.com/product/3776
+U1,D24V22F5,POWER,2858,Pololu,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://www.pololu.com/product/2858
+U2,PicoW,MCU,SC0918,Raspberry Pi,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf
+U3,DRV2605L,HAPTIC,2305,Adafruit,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,https://www.adafruit.com/product/2305
+U4,DRV8871,MOTOR_DRIVE,3190,Adafruit,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,https://www.adafruit.com/product/3190
+U5,TicT500,STEPPER_DRIVE,3134,Pololu,Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical,https://www.pololu.com/product/3134
