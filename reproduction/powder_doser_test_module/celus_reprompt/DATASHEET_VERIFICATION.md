@@ -53,7 +53,7 @@ fixed against the project's vendor files and the manufacturers' material:
 | M2  | MPN / Mfr | `NEMA11-Bipolar-Stepper` / `Generic` | `11HS18-0674S` / `StepperOnline` | Real part identified in the BOM (item 10); datasheet committed in vendor-files. The old link pointed at a Pololu **category** page (wrong vendor). |
 | M1  | MPN / Mfr | `ERM-10mm-Coin` / `Generic` | `1201` / `Adafruit` | The ERM is Adafruit #1201 (BOM item 2); old link was a generic Precision Microdrives category page. |
 | SOL1| Mfr / Datasheet | `Zonhen` / fabricated `zonhen.com` PDF | `Adafruit` / Adafruit #412 page | Sourced as Adafruit #412 (BOM item 4); the `zonhen.com/uploads/.../JF-0530B.pdf` URL was fabricated. Mechanical/coil datasheets are committed in vendor-files. |
-| J1  | MPN / Mfr / Datasheet | `PJ-002A` / `CUI Devices` / dead `cui.com` PDF | `373` / `Adafruit` / Adafruit #373 page | The bench rig's barrel-jack input is Adafruit #373 (BOM item 8); the old CUI PDF link 403s (redirects to bel­fuse.com). The KiCad **footprint** `BarrelJack_CUI_PJ-002A` is a generic barrel-jack outline and is retained. |
+| J1  | MPN / Mfr / Datasheet | `PJ-002A` / `CUI Devices` / dead `cui.com` PDF | `373` / `Adafruit` / Adafruit #373 page | The bench rig's barrel-jack input is Adafruit #373 (BOM item 8); the old CUI PDF link 403s (redirects to belfuse.com). The KiCad **footprint** `BarrelJack_CUI_PJ-002A` is a generic barrel-jack outline and is retained. |
 | C1/C2/C3 | Datasheet | dead `…/pdfs/e-uvr.pdf` (404) | current Nichicon UVR series PDF (200) | The previous Nichicon path 404s; replaced with the live UVR series catalog datasheet. |
 
 The remaining components (U1, U2, U3, U4, U5, SR1) already carried correct
